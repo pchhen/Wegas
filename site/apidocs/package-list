@@ -1,4 +1,3 @@
-com.wegas.app.jsf.controllers
 com.wegas.core.ejb
 com.wegas.core.ejb.exception
 com.wegas.core.ejb.statemachine
