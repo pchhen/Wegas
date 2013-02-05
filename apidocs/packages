@@ -34,4 +34,3 @@ com.wegas.messaging.ejb
 com.wegas.messaging.persistence
 com.wegas.messaging.rest
 com.wegas.proggame.rest
-com.wegas.app.jsf.controllers
