@@ -1,1 +1,4 @@
-/* You can override this file with your own styles */
+#poweredBy {
+    background: no-repeat 26px 20px url(https://travis-ci.org/Heigvd/Wegas.png?branch=master);
+}
+

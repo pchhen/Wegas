@@ -10,16 +10,16 @@
 
 <a class="jxr_linenumber" name="1" href="#1">1</a>   <em class="jxr_comment">/*</em>
 <a class="jxr_linenumber" name="2" href="#2">2</a>   <em class="jxr_comment"> * Wegas</em>
-<a class="jxr_linenumber" name="3" href="#3">3</a>   <em class="jxr_comment"> * <a href="http://www.albasim.com/wegas/" target="alexandria_uri">http://www.albasim.com/wegas/</a></em>
+<a class="jxr_linenumber" name="3" href="#3">3</a>   <em class="jxr_comment"> * <a href="http://www.albasim.ch/wegas/" target="alexandria_uri">http://www.albasim.ch/wegas/</a></em>
 <a class="jxr_linenumber" name="4" href="#4">4</a>   <em class="jxr_comment"> *</em>
 <a class="jxr_linenumber" name="5" href="#5">5</a>   <em class="jxr_comment"> * Copyright (c) 2013 School of Business and Engineering Vaud, Comem</em>
 <a class="jxr_linenumber" name="6" href="#6">6</a>   <em class="jxr_comment"> * Licensed under the MIT License</em>
 <a class="jxr_linenumber" name="7" href="#7">7</a>   <em class="jxr_comment"> */</em>
 <a class="jxr_linenumber" name="8" href="#8">8</a>   <strong class="jxr_keyword">package</strong> com.wegas.core.<strong class="jxr_keyword">rest</strong>;
 <a class="jxr_linenumber" name="9" href="#9">9</a>   
-<a class="jxr_linenumber" name="10" href="#10">10</a>  <strong class="jxr_keyword">import</strong> java.io.IOException;
-<a class="jxr_linenumber" name="11" href="#11">11</a>  <strong class="jxr_keyword">import</strong> java.io.InputStream;
-<a class="jxr_linenumber" name="12" href="#12">12</a>  <strong class="jxr_keyword">import</strong> java.util.ResourceBundle;
+<a class="jxr_linenumber" name="10" href="#10">10</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.Helper;
+<a class="jxr_linenumber" name="11" href="#11">11</a>  <strong class="jxr_keyword">import</strong> java.io.IOException;
+<a class="jxr_linenumber" name="12" href="#12">12</a>  <strong class="jxr_keyword">import</strong> java.io.InputStream;
 <a class="jxr_linenumber" name="13" href="#13">13</a>  <strong class="jxr_keyword">import</strong> java.util.Set;
 <a class="jxr_linenumber" name="14" href="#14">14</a>  <strong class="jxr_keyword">import</strong> javax.ejb.Stateless;
 <a class="jxr_linenumber" name="15" href="#15">15</a>  <strong class="jxr_keyword">import</strong> javax.servlet.ServletContext;
@@ -101,8 +101,8 @@
 <a class="jxr_linenumber" name="91" href="#91">91</a>          <strong class="jxr_keyword">for</strong> (String fileName : fileList) {
 <a class="jxr_linenumber" name="92" href="#92">92</a>              <strong class="jxr_keyword">try</strong> {
 <a class="jxr_linenumber" name="93" href="#93">93</a>                  InputStream fis = (InputStream) servletContext.getResourceAsStream(fileName);
-<a class="jxr_linenumber" name="94" href="#94">94</a>                  String content = IOUtils.toString(fis, ResourceBundle.getBundle(<span class="jxr_string">"wegas"</span>).getString(<span class="jxr_string">"encoding"</span>));
-<a class="jxr_linenumber" name="95" href="#95">95</a>                  <em class="jxr_comment">//String content = new Scanner(fis, ResourceBundle.getBundle("wegas").getString("encoding")).useDelimiter("&#92;&#92;A").next();   // Use a fake delimiter to read all lines at once</em>
+<a class="jxr_linenumber" name="94" href="#94">94</a>                  String content = IOUtils.toString(fis, Helper.getWegasProperty(<span class="jxr_string">"encoding"</span>));
+<a class="jxr_linenumber" name="95" href="#95">95</a>                  <em class="jxr_comment">//String content = new Scanner(fis, Helper.getWegasProperty("encoding")).useDelimiter("&#92;&#92;A").next();   // Use a fake delimiter to read all lines at once</em>
 <a class="jxr_linenumber" name="96" href="#96">96</a>                  <strong class="jxr_keyword">if</strong> (mediaType.equals(MediaTypeCss)) {                             <em class="jxr_comment">// @hack for css files, we correct the path</em>
 <a class="jxr_linenumber" name="97" href="#97">97</a>                      String dir = fileName.substring(0, fileName.lastIndexOf('/') + 1);
 <a class="jxr_linenumber" name="98" href="#98">98</a>                      content = content.replaceAll(<span class="jxr_string">"url&#92;&#92;(([^:&#92;&#92;)]+&#92;&#92;))"</span>,

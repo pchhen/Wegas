@@ -1,3 +1,4 @@
+com.wegas.core
 com.wegas.core.ejb
 com.wegas.core.persistence
 com.wegas.core.persistence.statemachine

@@ -1,6 +1,7 @@
 com.wegas.core.ejb
 com.wegas.core.ejb.exception
 com.wegas.core.ejb.statemachine
+com.wegas.core
 com.wegas.core.jcr.content
 com.wegas.core.jcr
 com.wegas.core.jcr.page
