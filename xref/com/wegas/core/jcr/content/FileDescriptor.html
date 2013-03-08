@@ -17,7 +17,7 @@
 <a class="jxr_linenumber" name="7" href="#7">7</a>   <em class="jxr_comment"> */</em>
 <a class="jxr_linenumber" name="8" href="#8">8</a>   <strong class="jxr_keyword">package</strong> com.wegas.core.jcr.content;
 <a class="jxr_linenumber" name="9" href="#9">9</a>   
-<a class="jxr_linenumber" name="10" href="#10">10</a>  <strong class="jxr_keyword">import</strong> com.wegas.exception.WegasException;
+<a class="jxr_linenumber" name="10" href="#10">10</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.exception.WegasException;
 <a class="jxr_linenumber" name="11" href="#11">11</a>  <strong class="jxr_keyword">import</strong> java.io.ByteArrayInputStream;
 <a class="jxr_linenumber" name="12" href="#12">12</a>  <strong class="jxr_keyword">import</strong> java.io.IOException;
 <a class="jxr_linenumber" name="13" href="#13">13</a>  <strong class="jxr_keyword">import</strong> java.io.InputStream;
@@ -108,12 +108,12 @@
 <a class="jxr_linenumber" name="98" href="#98">98</a>              <strong class="jxr_keyword">this</strong>.bytes = connector.getBytesSize(fileSystemAbsolutePath);
 <a class="jxr_linenumber" name="99" href="#99">99</a>              <strong class="jxr_keyword">if</strong> (WFSConfig.MAX_FILE_SIZE &lt; <strong class="jxr_keyword">this</strong>.bytes) {
 <a class="jxr_linenumber" name="100" href="#100">100</a>                 <strong class="jxr_keyword">this</strong>.delete(<strong class="jxr_keyword">true</strong>);
-<a class="jxr_linenumber" name="101" href="#101">101</a>                 <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../com/wegas/exception/WegasException.html">WegasException</a>(<strong class="jxr_keyword">this</strong>.getName() + <span class="jxr_string">"["</span> + ContentConnector.bytesToHumanReadable(<strong class="jxr_keyword">this</strong>.bytes) + <span class="jxr_string">"] file max size exceeded. Max "</span> + ContentConnector.bytesToHumanReadable(WFSConfig.MAX_FILE_SIZE));
+<a class="jxr_linenumber" name="101" href="#101">101</a>                 <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../com/wegas/core/exception/WegasException.html">WegasException</a>(<strong class="jxr_keyword">this</strong>.getName() + <span class="jxr_string">"["</span> + ContentConnector.bytesToHumanReadable(<strong class="jxr_keyword">this</strong>.bytes) + <span class="jxr_string">"] file max size exceeded. Max "</span> + ContentConnector.bytesToHumanReadable(WFSConfig.MAX_FILE_SIZE));
 <a class="jxr_linenumber" name="102" href="#102">102</a>             }
 <a class="jxr_linenumber" name="103" href="#103">103</a>             Long totalSize = ((DirectoryDescriptor) DescriptorFactory.getDescriptor(<span class="jxr_string">"/"</span>, connector)).getBytes();
 <a class="jxr_linenumber" name="104" href="#104">104</a>             <strong class="jxr_keyword">if</strong> (totalSize &gt; WFSConfig.MAX_REPO_SIZE) {
 <a class="jxr_linenumber" name="105" href="#105">105</a>                 <strong class="jxr_keyword">this</strong>.delete(<strong class="jxr_keyword">true</strong>);
-<a class="jxr_linenumber" name="106" href="#106">106</a>                 <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../com/wegas/exception/WegasException.html">WegasException</a>(<span class="jxr_string">"Total size["</span> + ContentConnector.bytesToHumanReadable(totalSize) + <span class="jxr_string">"] exceeded. Max "</span> + ContentConnector.bytesToHumanReadable(WFSConfig.MAX_FILE_SIZE));
+<a class="jxr_linenumber" name="106" href="#106">106</a>                 <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../com/wegas/core/exception/WegasException.html">WegasException</a>(<span class="jxr_string">"Total size["</span> + ContentConnector.bytesToHumanReadable(totalSize) + <span class="jxr_string">"] exceeded. Max "</span> + ContentConnector.bytesToHumanReadable(WFSConfig.MAX_FILE_SIZE));
 <a class="jxr_linenumber" name="107" href="#107">107</a>             }
 <a class="jxr_linenumber" name="108" href="#108">108</a>             <strong class="jxr_keyword">this</strong>.dataLastModified = connector.getLastModified(fileSystemAbsolutePath);
 <a class="jxr_linenumber" name="109" href="#109">109</a>             <strong class="jxr_keyword">this</strong>.mimeType = mimeType;

@@ -67,7 +67,7 @@
 <a class="jxr_linenumber" name="57" href="#57">57</a>          <a href="../../../../../../com/wegas/core/persistence/variable/VariableDescriptor.html">VariableDescriptor</a> vd = <strong class="jxr_keyword">this</strong>.getVariableDescriptor();
 <a class="jxr_linenumber" name="58" href="#58">58</a>          <a href="../../../../../../com/wegas/core/persistence/variable/VariableInstance.html">VariableInstance</a> vi = <strong class="jxr_keyword">this</strong>.getVariableInstance();
 <a class="jxr_linenumber" name="59" href="#59">59</a>          <strong class="jxr_keyword">if</strong> (vi == <strong class="jxr_keyword">null</strong>) {
-<a class="jxr_linenumber" name="60" href="#60">60</a>              <strong class="jxr_keyword">this</strong>.setVariableInstance(<strong class="jxr_keyword">new</strong> Long(<span class="jxr_string">"0"</span>), vd.getDefaultInstance().clone());
+<a class="jxr_linenumber" name="60" href="#60">60</a>              <strong class="jxr_keyword">this</strong>.setVariableInstance(Long.valueOf(0), vd.getDefaultInstance().clone());
 <a class="jxr_linenumber" name="61" href="#61">61</a>          } <strong class="jxr_keyword">else</strong> <strong class="jxr_keyword">if</strong> (force) {
 <a class="jxr_linenumber" name="62" href="#62">62</a>              vi.merge(vd.getDefaultInstance());
 <a class="jxr_linenumber" name="63" href="#63">63</a>          }
@@ -80,7 +80,7 @@
 <a class="jxr_linenumber" name="70" href="#70">70</a>      @Override
 <a class="jxr_linenumber" name="71" href="#71">71</a>      <strong class="jxr_keyword">public</strong> Map&lt;Long, VariableInstance&gt; getVariableInstances() {
 <a class="jxr_linenumber" name="72" href="#72">72</a>          Map&lt;Long, VariableInstance&gt; ret = <strong class="jxr_keyword">new</strong> HashMap&lt;Long, VariableInstance&gt;();
-<a class="jxr_linenumber" name="73" href="#73">73</a>          ret.put(<strong class="jxr_keyword">new</strong> Long(<span class="jxr_string">"0"</span>), getVariableInstance());
+<a class="jxr_linenumber" name="73" href="#73">73</a>          ret.put(Long.valueOf(<span class="jxr_string">"0"</span>), getVariableInstance());
 <a class="jxr_linenumber" name="74" href="#74">74</a>          <strong class="jxr_keyword">return</strong> ret;
 <a class="jxr_linenumber" name="75" href="#75">75</a>      }
 <a class="jxr_linenumber" name="76" href="#76">76</a>  

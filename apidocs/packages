@@ -1,6 +1,7 @@
 com.wegas.core.ejb
-com.wegas.core.ejb.exception
 com.wegas.core.ejb.statemachine
+com.wegas.core.event
+com.wegas.core.exception
 com.wegas.core
 com.wegas.core.jcr.content
 com.wegas.core.jcr
@@ -15,7 +16,6 @@ com.wegas.core.persistence.variable.statemachine
 com.wegas.core.rest
 com.wegas.core.rest.exception
 com.wegas.core.rest.util
-com.wegas.core.security.actions
 com.wegas.core.security.ejb
 com.wegas.core.security.facebook
 com.wegas.core.security.jparealm
@@ -24,7 +24,6 @@ com.wegas.core.security.rest
 com.wegas.core.security.servlet
 com.wegas.core.security.util
 com.wegas.core.session
-com.wegas.exception
 com.wegas.leaderway.ejb
 com.wegas.leaderway.persistence
 com.wegas.leaderway.rest

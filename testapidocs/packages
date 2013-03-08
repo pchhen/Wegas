@@ -1,6 +1,11 @@
 com.wegas.core.ejb
+com.wegas.core.ejb.statemachine
 com.wegas.core
 com.wegas.core.persistence
 com.wegas.core.persistence.statemachine
 com.wegas.core.rest
-com.wegas.core.script
+com.wegas.core.security.ejb
+com.wegas.leaderway.ejb
+com.wegas.mcq.ejb
+com.wegas.messaging.ejb
+com.wegas.app

@@ -87,21 +87,4 @@
 ]]>
 </codefragment>
 </duplication>
-<duplication lines="9" tokens="100">
-<file line="261" path="C:\Users\CiGit\Documents\NetBeansProjects\Wegas\wegas-core\src\main\java\com\wegas\core\rest\FileController.java"/>
-<file line="297" path="C:\Users\CiGit\Documents\NetBeansProjects\Wegas\wegas-core\src\main\java\com\wegas\core\rest\FileController.java"/>
-<codefragment>
-<![CDATA[
-                    } catch (SAXException ex) {
-                        Logger.getLogger(FileController.class.getName()).log(Level.SEVERE, null, ex);
-                    }
-                } catch (RepositoryException ex) {
-                    Logger.getLogger(FileController.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            }
-        };
-        return Response.ok(out, MediaType.APPLICATION_OCTET_STREAM).header("content-disposition", "attachment; filename=WEGAS_" + gmFacade.find(new Long(extractGameModelId(gameModelId))).getName() + "_files.xml").build();
-]]>
-</codefragment>
-</duplication>
 </pmd-cpd>

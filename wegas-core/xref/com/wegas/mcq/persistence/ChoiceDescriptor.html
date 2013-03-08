@@ -67,11 +67,11 @@
 <a class="jxr_linenumber" name="57" href="#57">57</a>      <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="58" href="#58">58</a>  <em class="jxr_javadoccomment">     *</em>
 <a class="jxr_linenumber" name="59" href="#59">59</a>  <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="60" href="#60">60</a>      <strong class="jxr_keyword">private</strong> Long duration = <strong class="jxr_keyword">new</strong> Long(1);
+<a class="jxr_linenumber" name="60" href="#60">60</a>      <strong class="jxr_keyword">private</strong> Long duration = Long.valueOf(1);
 <a class="jxr_linenumber" name="61" href="#61">61</a>      <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="62" href="#62">62</a>  <em class="jxr_javadoccomment">     *</em>
 <a class="jxr_linenumber" name="63" href="#63">63</a>  <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="64" href="#64">64</a>      <strong class="jxr_keyword">private</strong> Long cost = <strong class="jxr_keyword">new</strong> Long(0);
+<a class="jxr_linenumber" name="64" href="#64">64</a>      <strong class="jxr_keyword">private</strong> Long cost = Long.valueOf(0);
 <a class="jxr_linenumber" name="65" href="#65">65</a>  
 <a class="jxr_linenumber" name="66" href="#66">66</a>      <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="67" href="#67">67</a>  <em class="jxr_javadoccomment">     *</em>
@@ -94,7 +94,7 @@
 <a class="jxr_linenumber" name="84" href="#84">84</a>      @PrePersist
 <a class="jxr_linenumber" name="85" href="#85">85</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> prePersist2() {
 <a class="jxr_linenumber" name="86" href="#86">86</a>          <strong class="jxr_keyword">if</strong> (<strong class="jxr_keyword">this</strong>.getResults().isEmpty()) {
-<a class="jxr_linenumber" name="87" href="#87">87</a>              <strong class="jxr_keyword">this</strong>.addResult(<strong class="jxr_keyword">new</strong> <a href="../../../../com/wegas/mcq/persistence/Result.html">Result</a>(<span class="jxr_string">"Default"</span>));                              <em class="jxr_comment">// When a choice is created, we automatically add a result by default</em>
+<a class="jxr_linenumber" name="87" href="#87">87</a>              <strong class="jxr_keyword">this</strong>.addResult(<strong class="jxr_keyword">new</strong> <a href="../../../../com/wegas/mcq/persistence/Result.html">Result</a>(<span class="jxr_string">"Default"</span>));              <em class="jxr_comment">// When a choice is created, we automatically add a result by default</em>
 <a class="jxr_linenumber" name="88" href="#88">88</a>          }
 <a class="jxr_linenumber" name="89" href="#89">89</a>      }
 <a class="jxr_linenumber" name="90" href="#90">90</a>  
