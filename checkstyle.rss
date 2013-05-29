@@ -8,8 +8,8 @@
     <language>en-us</language>
     <copyright>&#169;2013</copyright>
     <item>
-      <title>File: 178,
-             Errors: 5378,
+      <title>File: 193,
+             Errors: 5885,
              Warnings: 0,
              Infos: 0
       </title>
@@ -29,7 +29,721 @@
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.PublicGameController.java">com/wegas/core/rest/PublicGameController.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.util.ViewRequestFilter.java">com/wegas/core/rest/util/ViewRequestFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  21
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.exception.ScriptException.java">com/wegas/core/exception/ScriptException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  59
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.exception.WegasException.java">com/wegas/core/exception/WegasException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.content.ContentConnectorFactory.java">com/wegas/core/jcr/content/ContentConnectorFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.messaging.ejb.MessageEvent.java">com/wegas/messaging/ejb/MessageEvent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.content.WFSConfig.java">com/wegas/core/jcr/content/WFSConfig.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  21
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.page.Pages.java">com/wegas/core/jcr/page/Pages.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  47
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.rest.package-info.java">com/wegas/mcq/rest/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.game.Script.java">com/wegas/core/persistence/game/Script.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.dialogue.ActiveResponse.java">com/wegas/core/persistence/variable/dialogue/ActiveResponse.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.primitive.TextInstance.java">com/wegas/core/persistence/variable/primitive/TextInstance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.util.Views.java">com/wegas/core/rest/util/Views.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.leaderway.persistence.DialogueState.java">com/wegas/leaderway/persistence/DialogueState.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.primitive.StringInstance.java">com/wegas/core/persistence/variable/primitive/StringInstance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.exception.AbstractExceptionMapper.java">com/wegas/core/rest/exception/AbstractExceptionMapper.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  23
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.persistence.GuestAccount.java">com/wegas/core/security/persistence/GuestAccount.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.facebook.FacebookRealm.java">com/wegas/core/security/facebook/FacebookRealm.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  29
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.primitive.BooleanDescriptor.java">com/wegas/core/persistence/variable/primitive/BooleanDescriptor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.exception.NoTeamException.java">com/wegas/core/exception/NoTeamException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.event.PlayerAction.java">com/wegas/core/event/PlayerAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.app.jsf.controllers.ErrorController.java">com/wegas/app/jsf/controllers/ErrorController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.VariableInstance.java">com/wegas/core/persistence/variable/VariableInstance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  32
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.rest.QuestionController.java">com/wegas/mcq/rest/QuestionController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  50
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.event.EngineInvocationEvent.java">com/wegas/core/event/EngineInvocationEvent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  16
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.primitive.NumberDescriptor.java">com/wegas/core/persistence/variable/primitive/NumberDescriptor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  45
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.VariableDescriptorFacade.java">com/wegas/core/ejb/VariableDescriptorFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  89
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.ejb.QuestionDescriptorFacade.java">com/wegas/mcq/ejb/QuestionDescriptorFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  94
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.jparealm.JpaAccount.java">com/wegas/core/security/jparealm/JpaAccount.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.app.jsf.controllers.SingleLobbyController.java">com/wegas/app/jsf/controllers/SingleLobbyController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  22
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.content.DescriptorFactory.java">com/wegas/core/jcr/content/DescriptorFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  28
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.facebook.FacebookAccount.java">com/wegas/core/security/facebook/FacebookAccount.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.event.ResetEvent.java">com/wegas/core/event/ResetEvent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.page.Page.java">com/wegas/core/jcr/page/Page.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  54
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.ejb.ReplyFacade.java">com/wegas/mcq/ejb/ReplyFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.VariableInstanceFacade.java">com/wegas/core/ejb/VariableInstanceFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  63
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.facebook.package-info.java">com/wegas/core/security/facebook/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.statemachine.StateMachineInstance.java">com/wegas/core/persistence/variable/statemachine/StateMachineInstance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  29
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.PlayerController.java">com/wegas/core/rest/PlayerController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  31
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.GameFacade.java">com/wegas/core/ejb/GameFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  37
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.package-info.java">com/wegas/core/persistence/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.ComboController.java">com/wegas/core/rest/ComboController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  36
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.event.CustomEvent.java">com/wegas/core/event/CustomEvent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.scope.TeamScope.java">com/wegas/core/persistence/variable/scope/TeamScope.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.exception.DefaultExceptionMapper.java">com/wegas/core/rest/exception/DefaultExceptionMapper.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.TeamFacade.java">com/wegas/core/ejb/TeamFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  50
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.primitive.TextDescriptor.java">com/wegas/core/persistence/variable/primitive/TextDescriptor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.app.jsf.controllers.GameController.java">com/wegas/app/jsf/controllers/GameController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.facebook.FacebookCredentialsMatcher.java">com/wegas/core/security/facebook/FacebookCredentialsMatcher.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.messaging.persistence.Message.java">com/wegas/messaging/persistence/Message.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  74
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.ejb.UserFacade.java">com/wegas/core/security/ejb/UserFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  75
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.LibraryController.java">com/wegas/core/rest/LibraryController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.util.SecurityInterceptor.java">com/wegas/core/security/util/SecurityInterceptor.java</a>
                 </td>
                 <td>
                   0
@@ -43,7 +757,413 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.util.ViewRequestFilter.java">com/wegas/core/rest/util/ViewRequestFilter.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.session.RequestListener.java">com/wegas/core/session/RequestListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.persistence.User.java">com/wegas/core/security/persistence/User.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  29
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.content.AbstractContentDescriptor.java">com/wegas/core/jcr/content/AbstractContentDescriptor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  150
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.content.XMLSerializer.java">com/wegas/core/jcr/content/XMLSerializer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  59
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.ScriptController.java">com/wegas/core/rest/ScriptController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mononpoly.persistence.ObjectDescriptor.java">com/wegas/mononpoly/persistence/ObjectDescriptor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.proggame.rest.ProgGameController.java">com/wegas/proggame/rest/ProgGameController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.GameModelController.java">com/wegas/core/rest/GameModelController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  44
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.WebsocketController.java">com/wegas/core/rest/WebsocketController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.scope.GameModelScope.java">com/wegas/core/persistence/variable/scope/GameModelScope.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  28
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.exception.ExceptionWrapper.java">com/wegas/core/rest/exception/ExceptionWrapper.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  25
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.leaderway.persistence.Activity.java">com/wegas/leaderway/persistence/Activity.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  37
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.event.ExceptionEvent.java">com/wegas/core/event/ExceptionEvent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.game.GameModel.java">com/wegas/core/persistence/game/GameModel.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  108
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.exception.EJBExceptionMapper.java">com/wegas/core/rest/exception/EJBExceptionMapper.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.primitive.NumberInstance.java">com/wegas/core/persistence/variable/primitive/NumberInstance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.util.Secured.java">com/wegas/core/security/util/Secured.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.messaging.persistence.InboxInstance.java">com/wegas/messaging/persistence/InboxInstance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  39
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.GameModelFacade.java">com/wegas/core/ejb/GameModelFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.ejb.RoleFacade.java">com/wegas/core/security/ejb/RoleFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.facebook.FacebookUserDetails.java">com/wegas/core/security/facebook/FacebookUserDetails.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  41
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.VariableInstanceController.java">com/wegas/core/rest/VariableInstanceController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  43
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.dialogue.UserInput.java">com/wegas/core/persistence/variable/dialogue/UserInput.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.statemachine.State.java">com/wegas/core/persistence/variable/statemachine/State.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  35
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.TeamController.java">com/wegas/core/rest/TeamController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  32
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.scope.package-info.java">com/wegas/core/persistence/variable/scope/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.scope.PlayerScope.java">com/wegas/core/persistence/variable/scope/PlayerScope.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.statemachine.TriggerInstance.java">com/wegas/core/persistence/variable/statemachine/TriggerInstance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.package-info.java">com/wegas/core/rest/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.ListUtils.java">com/wegas/core/persistence/ListUtils.java</a>
                 </td>
                 <td>
                   0
@@ -53,6 +1173,90 @@
                 </td>
                 <td>
                   21
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.persistence.Role.java">com/wegas/core/security/persistence/Role.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  33
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.JackrabbitConnector.java">com/wegas/core/jcr/JackrabbitConnector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  22
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.leaderway.persistence.DialogueTransition.java">com/wegas/leaderway/persistence/DialogueTransition.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.persistence.Reply.java">com/wegas/mcq/persistence/Reply.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.AbstractFacadeImpl.java">com/wegas/core/ejb/AbstractFacadeImpl.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  42
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.PublicGameController.java">com/wegas/core/rest/PublicGameController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  15
                 </td>
               </tr>
                           <tr>
@@ -99,20 +1303,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.exception.ScriptException.java">com/wegas/core/exception/ScriptException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  59
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.dialogue.DialogueInstance.java">com/wegas/core/persistence/variable/dialogue/DialogueInstance.java</a>
                 </td>
                 <td>
@@ -123,34 +1313,6 @@
                 </td>
                 <td>
                   10
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.content.ContentConnectorFactory.java">com/wegas/core/jcr/content/ContentConnectorFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.exception.WegasException.java">com/wegas/core/exception/WegasException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
                 </td>
               </tr>
                           <tr>
@@ -169,7 +1331,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.messaging.ejb.MessageEvent.java">com/wegas/messaging/ejb/MessageEvent.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.VariableDescriptorController.java">com/wegas/core/rest/VariableDescriptorController.java</a>
                 </td>
                 <td>
                   0
@@ -178,7 +1340,7 @@
                   0
                 </td>
                 <td>
-                  12
+                  54
                 </td>
               </tr>
                           <tr>
@@ -193,20 +1355,6 @@
                 </td>
                 <td>
                   40
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.VariableDescriptorController.java">com/wegas/core/rest/VariableDescriptorController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  54
                 </td>
               </tr>
                           <tr>
@@ -234,7 +1382,21 @@
                   0
                 </td>
                 <td>
-                  25
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.game.GameModelContent.java">com/wegas/core/persistence/game/GameModelContent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
                 </td>
               </tr>
                           <tr>
@@ -249,62 +1411,6 @@
                 </td>
                 <td>
                   10
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.rest.package-info.java">com/wegas/mcq/rest/package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.page.Pages.java">com/wegas/core/jcr/page/Pages.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  50
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.content.WFSConfig.java">com/wegas/core/jcr/content/WFSConfig.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  21
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.game.Script.java">com/wegas/core/persistence/game/Script.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  19
                 </td>
               </tr>
                           <tr>
@@ -351,20 +1457,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.persistence.AbstractAccount.java">com/wegas/core/security/persistence/AbstractAccount.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  52
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.dialogue.DialogueDescriptor.java">com/wegas/core/persistence/variable/dialogue/DialogueDescriptor.java</a>
                 </td>
                 <td>
@@ -379,6 +1471,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.persistence.AbstractAccount.java">com/wegas/core/security/persistence/AbstractAccount.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  52
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.app.jsf.controllers.RequestController.java">com/wegas/app/jsf/controllers/RequestController.java</a>
                 </td>
                 <td>
@@ -389,20 +1495,6 @@
                 </td>
                 <td>
                   18
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.dialogue.ActiveResponse.java">com/wegas/core/persistence/variable/dialogue/ActiveResponse.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
                 </td>
               </tr>
                           <tr>
@@ -458,21 +1550,7 @@
                   0
                 </td>
                 <td>
-                  27
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.util.Views.java">com/wegas/core/rest/util/Views.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  15
+                  32
                 </td>
               </tr>
                           <tr>
@@ -491,7 +1569,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.leaderway.persistence.DialogueState.java">com/wegas/leaderway/persistence/DialogueState.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.websocket.pusher.PusherRequest.java">com/wegas/core/websocket/pusher/PusherRequest.java</a>
                 </td>
                 <td>
                   0
@@ -500,12 +1578,12 @@
                   0
                 </td>
                 <td>
-                  7
+                  141
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.game.Player.java">com/wegas/core/persistence/game/Player.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.event.EntityUpdatedEvent.java">com/wegas/core/event/EntityUpdatedEvent.java</a>
                 </td>
                 <td>
                   0
@@ -514,7 +1592,7 @@
                   0
                 </td>
                 <td>
-                  45
+                  14
                 </td>
               </tr>
                           <tr>
@@ -533,7 +1611,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.primitive.StringInstance.java">com/wegas/core/persistence/variable/primitive/StringInstance.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.game.Player.java">com/wegas/core/persistence/game/Player.java</a>
                 </td>
                 <td>
                   0
@@ -542,21 +1620,7 @@
                   0
                 </td>
                 <td>
-                  14
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.persistence.GuestAccount.java">com/wegas/core/security/persistence/GuestAccount.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
+                  44
                 </td>
               </tr>
                           <tr>
@@ -575,7 +1639,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.exception.AbstractExceptionMapper.java">com/wegas/core/rest/exception/AbstractExceptionMapper.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.ListDescriptorI.java">com/wegas/core/persistence/variable/ListDescriptorI.java</a>
                 </td>
                 <td>
                   0
@@ -584,21 +1648,7 @@
                   0
                 </td>
                 <td>
-                  23
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.facebook.FacebookRealm.java">com/wegas/core/security/facebook/FacebookRealm.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  29
+                  9
                 </td>
               </tr>
                           <tr>
@@ -631,20 +1681,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.persistence.QuestionDescriptor.java">com/wegas/mcq/persistence/QuestionDescriptor.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  40
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.statemachine.StateMachineDescriptor.java">com/wegas/core/persistence/variable/statemachine/StateMachineDescriptor.java</a>
                 </td>
                 <td>
@@ -659,7 +1695,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.ScriptLibrary.java">com/wegas/core/rest/ScriptLibrary.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.event.RequestCommit.java">com/wegas/core/event/RequestCommit.java</a>
                 </td>
                 <td>
                   0
@@ -668,7 +1704,21 @@
                   0
                 </td>
                 <td>
-                  16
+                  4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.persistence.QuestionDescriptor.java">com/wegas/mcq/persistence/QuestionDescriptor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  52
                 </td>
               </tr>
                           <tr>
@@ -682,7 +1732,7 @@
                   0
                 </td>
                 <td>
-                  77
+                  75
                 </td>
               </tr>
                           <tr>
@@ -701,7 +1751,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.exception.NoTeamException.java">com/wegas/core/exception/NoTeamException.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.websocket.pusher.Pusher.java">com/wegas/core/websocket/pusher/Pusher.java</a>
                 </td>
                 <td>
                   0
@@ -710,77 +1760,7 @@
                   0
                 </td>
                 <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.primitive.BooleanDescriptor.java">com/wegas/core/persistence/variable/primitive/BooleanDescriptor.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.app.jsf.controllers.ErrorController.java">com/wegas/app/jsf/controllers/ErrorController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  17
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.event.PlayerAction.java">com/wegas/core/event/PlayerAction.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.VariableInstance.java">com/wegas/core/persistence/variable/VariableInstance.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  32
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.rest.QuestionController.java">com/wegas/mcq/rest/QuestionController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  50
+                  89
                 </td>
               </tr>
                           <tr>
@@ -794,7 +1774,7 @@
                   0
                 </td>
                 <td>
-                  119
+                  121
                 </td>
               </tr>
                           <tr>
@@ -808,7 +1788,7 @@
                   0
                 </td>
                 <td>
-                  38
+                  39
                 </td>
               </tr>
                           <tr>
@@ -822,21 +1802,7 @@
                   0
                 </td>
                 <td>
-                  92
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.event.EngineInvocationEvent.java">com/wegas/core/event/EngineInvocationEvent.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  17
+                  98
                 </td>
               </tr>
                           <tr>
@@ -855,7 +1821,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.primitive.NumberDescriptor.java">com/wegas/core/persistence/variable/primitive/NumberDescriptor.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.event.ServerEvent.java">com/wegas/core/event/ServerEvent.java</a>
                 </td>
                 <td>
                   0
@@ -864,35 +1830,7 @@
                   0
                 </td>
                 <td>
-                  41
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.ejb.QuestionDescriptorFacade.java">com/wegas/mcq/ejb/QuestionDescriptorFacade.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  93
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.VariableDescriptorFacade.java">com/wegas/core/ejb/VariableDescriptorFacade.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  87
+                  2
                 </td>
               </tr>
                           <tr>
@@ -906,21 +1844,7 @@
                   0
                 </td>
                 <td>
-                  15
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.jparealm.JpaAccount.java">com/wegas/core/security/jparealm/JpaAccount.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  26
+                  16
                 </td>
               </tr>
                           <tr>
@@ -939,90 +1863,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.app.jsf.controllers.SingleLobbyController.java">com/wegas/app/jsf/controllers/SingleLobbyController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  22
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.content.DescriptorFactory.java">com/wegas/core/jcr/content/DescriptorFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  28
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.facebook.FacebookAccount.java">com/wegas/core/security/facebook/FacebookAccount.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.ejb.ReplyFacade.java">com/wegas/mcq/ejb/ReplyFacade.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.page.Page.java">com/wegas/core/jcr/page/Page.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  51
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.event.ResetEvent.java">com/wegas/core/event/ResetEvent.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  20
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.exception.NoPlayerException.java">com/wegas/core/exception/NoPlayerException.java</a>
                 </td>
                 <td>
@@ -1033,20 +1873,6 @@
                 </td>
                 <td>
                   6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.rest.RoleController.java">com/wegas/core/security/rest/RoleController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
                 </td>
               </tr>
                           <tr>
@@ -1065,7 +1891,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.facebook.package-info.java">com/wegas/core/security/facebook/package-info.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.rest.RoleController.java">com/wegas/core/security/rest/RoleController.java</a>
                 </td>
                 <td>
                   0
@@ -1074,21 +1900,7 @@
                   0
                 </td>
                 <td>
-                  1
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.VariableInstanceFacade.java">com/wegas/core/ejb/VariableInstanceFacade.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  59
+                  2
                 </td>
               </tr>
                           <tr>
@@ -1121,34 +1933,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.statemachine.StateMachineInstance.java">com/wegas/core/persistence/variable/statemachine/StateMachineInstance.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  29
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.PlayerController.java">com/wegas/core/rest/PlayerController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  31
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.leaderway.persistence.WRequirement.java">com/wegas/leaderway/persistence/WRequirement.java</a>
                 </td>
                 <td>
@@ -1158,7 +1942,7 @@
                   0
                 </td>
                 <td>
-                  33
+                  30
                 </td>
               </tr>
                           <tr>
@@ -1177,7 +1961,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.GameFacade.java">com/wegas/core/ejb/GameFacade.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.util.SecurityProducer.java">com/wegas/core/security/util/SecurityProducer.java</a>
                 </td>
                 <td>
                   0
@@ -1186,7 +1970,7 @@
                   0
                 </td>
                 <td>
-                  37
+                  9
                 </td>
               </tr>
                           <tr>
@@ -1205,48 +1989,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.util.SecurityProducer.java">com/wegas/core/security/util/SecurityProducer.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.package-info.java">com/wegas/core/persistence/package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.ComboController.java">com/wegas/core/rest/ComboController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  36
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.dialogue.ResponseModel.java">com/wegas/core/persistence/variable/dialogue/ResponseModel.java</a>
                 </td>
                 <td>
@@ -1261,62 +2003,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.scope.TeamScope.java">com/wegas/core/persistence/variable/scope/TeamScope.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  28
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.TeamFacade.java">com/wegas/core/ejb/TeamFacade.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  51
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.exception.DefaultExceptionMapper.java">com/wegas/core/rest/exception/DefaultExceptionMapper.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.app.jsf.controllers.GameController.java">com/wegas/app/jsf/controllers/GameController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  17
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.servlet.AuthenticationFilter.java">com/wegas/core/security/servlet/AuthenticationFilter.java</a>
                 </td>
                 <td>
@@ -1327,34 +2013,6 @@
                 </td>
                 <td>
                   19
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.facebook.FacebookCredentialsMatcher.java">com/wegas/core/security/facebook/FacebookCredentialsMatcher.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.messaging.persistence.Message.java">com/wegas/messaging/persistence/Message.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  74
                 </td>
               </tr>
                           <tr>
@@ -1387,20 +2045,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.ejb.UserFacade.java">com/wegas/core/security/ejb/UserFacade.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  75
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.leaderway.persistence.TaskInstance.java">com/wegas/leaderway/persistence/TaskInstance.java</a>
                 </td>
                 <td>
@@ -1415,20 +2059,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.util.SecurityInterceptor.java">com/wegas/core/security/util/SecurityInterceptor.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  15
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.statemachine.TriggerDescriptor.java">com/wegas/core/persistence/variable/statemachine/TriggerDescriptor.java</a>
                 </td>
                 <td>
@@ -1438,21 +2068,7 @@
                   0
                 </td>
                 <td>
-                  31
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.session.RequestListener.java">com/wegas/core/session/RequestListener.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
+                  30
                 </td>
               </tr>
                           <tr>
@@ -1467,20 +2083,6 @@
                 </td>
                 <td>
                   61
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.persistence.User.java">com/wegas/core/security/persistence/User.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  29
                 </td>
               </tr>
                           <tr>
@@ -1527,34 +2129,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.content.AbstractContentDescriptor.java">com/wegas/core/jcr/content/AbstractContentDescriptor.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  150
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.content.XMLSerializer.java">com/wegas/core/jcr/content/XMLSerializer.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  59
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.statemachine.StateMachineFacade.java">com/wegas/core/ejb/statemachine/StateMachineFacade.java</a>
                 </td>
                 <td>
@@ -1564,7 +2138,7 @@
                   0
                 </td>
                 <td>
-                  60
+                  63
                 </td>
               </tr>
                           <tr>
@@ -1583,7 +2157,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.ScriptController.java">com/wegas/core/rest/ScriptController.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.util.JacksonMapperProvider.java">com/wegas/core/rest/util/JacksonMapperProvider.java</a>
                 </td>
                 <td>
                   0
@@ -1592,7 +2166,7 @@
                   0
                 </td>
                 <td>
-                  15
+                  17
                 </td>
               </tr>
                           <tr>
@@ -1611,20 +2185,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.util.JacksonMapperProvider.java">com/wegas/core/rest/util/JacksonMapperProvider.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  17
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.primitive.package-info.java">com/wegas/core/persistence/variable/primitive/package-info.java</a>
                 </td>
                 <td>
@@ -1635,20 +2195,6 @@
                 </td>
                 <td>
                   1
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.RequestManager.java">com/wegas/core/ejb/RequestManager.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  30
                 </td>
               </tr>
                           <tr>
@@ -1667,7 +2213,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.proggame.rest.ProgGameController.java">com/wegas/proggame/rest/ProgGameController.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.RequestManager.java">com/wegas/core/ejb/RequestManager.java</a>
                 </td>
                 <td>
                   0
@@ -1676,7 +2222,7 @@
                   0
                 </td>
                 <td>
-                  10
+                  37
                 </td>
               </tr>
                           <tr>
@@ -1709,7 +2255,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.GameModelController.java">com/wegas/core/rest/GameModelController.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.ListDescriptor.java">com/wegas/core/persistence/variable/ListDescriptor.java</a>
                 </td>
                 <td>
                   0
@@ -1718,7 +2264,7 @@
                   0
                 </td>
                 <td>
-                  36
+                  26
                 </td>
               </tr>
                           <tr>
@@ -1737,20 +2283,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.ListDescriptor.java">com/wegas/core/persistence/variable/ListDescriptor.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  27
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.leaderway.persistence.ResourceInstance.java">com/wegas/leaderway/persistence/ResourceInstance.java</a>
                 </td>
                 <td>
@@ -1760,7 +2292,7 @@
                   0
                 </td>
                 <td>
-                  108
+                  106
                 </td>
               </tr>
                           <tr>
@@ -1793,34 +2325,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.leaderway.persistence.TaskDescriptor.java">com/wegas/leaderway/persistence/TaskDescriptor.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  59
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.scope.GameModelScope.java">com/wegas/core/persistence/variable/scope/GameModelScope.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  27
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.Tag.java">com/wegas/core/persistence/variable/Tag.java</a>
                 </td>
                 <td>
@@ -1831,6 +2335,20 @@
                 </td>
                 <td>
                   13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.leaderway.persistence.TaskDescriptor.java">com/wegas/leaderway/persistence/TaskDescriptor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  56
                 </td>
               </tr>
                           <tr>
@@ -1849,34 +2367,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.exception.ExceptionWrapper.java">com/wegas/core/rest/exception/ExceptionWrapper.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  25
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.leaderway.persistence.Activity.java">com/wegas/leaderway/persistence/Activity.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  37
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.leaderway.persistence.ResourceDescriptor.java">com/wegas/leaderway/persistence/ResourceDescriptor.java</a>
                 </td>
                 <td>
@@ -1886,35 +2376,7 @@
                   0
                 </td>
                 <td>
-                  103
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.game.GameModel.java">com/wegas/core/persistence/game/GameModel.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  86
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.messaging.ejb.MessagingFacade.java">com/wegas/messaging/ejb/MessagingFacade.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  34
+                  102
                 </td>
               </tr>
                           <tr>
@@ -1933,7 +2395,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.exception.EJBExceptionMapper.java">com/wegas/core/rest/exception/EJBExceptionMapper.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.messaging.ejb.MessagingFacade.java">com/wegas/messaging/ejb/MessagingFacade.java</a>
                 </td>
                 <td>
                   0
@@ -1942,21 +2404,7 @@
                   0
                 </td>
                 <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.primitive.NumberInstance.java">com/wegas/core/persistence/variable/primitive/NumberInstance.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  18
+                  34
                 </td>
               </tr>
                           <tr>
@@ -1970,21 +2418,7 @@
                   0
                 </td>
                 <td>
-                  55
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.util.Secured.java">com/wegas/core/security/util/Secured.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  3
+                  60
                 </td>
               </tr>
                           <tr>
@@ -2017,20 +2451,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.messaging.persistence.InboxInstance.java">com/wegas/messaging/persistence/InboxInstance.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  39
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.app.jsf.controllers.EditorGameController.java">com/wegas/app/jsf/controllers/EditorGameController.java</a>
                 </td>
                 <td>
@@ -2045,20 +2465,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.GameModelFacade.java">com/wegas/core/ejb/GameModelFacade.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  22
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.primitive.BooleanInstance.java">com/wegas/core/persistence/variable/primitive/BooleanInstance.java</a>
                 </td>
                 <td>
@@ -2069,62 +2475,6 @@
                 </td>
                 <td>
                   13
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.ejb.RoleFacade.java">com/wegas/core/security/ejb/RoleFacade.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.facebook.FacebookUserDetails.java">com/wegas/core/security/facebook/FacebookUserDetails.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  41
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.VariableInstanceController.java">com/wegas/core/rest/VariableInstanceController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  27
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.dialogue.UserInput.java">com/wegas/core/persistence/variable/dialogue/UserInput.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
                 </td>
               </tr>
                           <tr>
@@ -2157,34 +2507,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.TeamController.java">com/wegas/core/rest/TeamController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  32
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.statemachine.State.java">com/wegas/core/persistence/variable/statemachine/State.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  35
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.persistence.SingleResultChoiceDescriptor.java">com/wegas/mcq/persistence/SingleResultChoiceDescriptor.java</a>
                 </td>
                 <td>
@@ -2208,35 +2530,7 @@
                   0
                 </td>
                 <td>
-                  50
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.scope.package-info.java">com/wegas/core/persistence/variable/scope/package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.scope.PlayerScope.java">com/wegas/core/persistence/variable/scope/PlayerScope.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  26
+                  35
                 </td>
               </tr>
                           <tr>
@@ -2255,20 +2549,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.statemachine.TriggerInstance.java">com/wegas/core/persistence/variable/statemachine/TriggerInstance.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.exception.NoResultException.java">com/wegas/core/exception/NoResultException.java</a>
                 </td>
                 <td>
@@ -2283,7 +2563,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.rest.package-info.java">com/wegas/core/rest/package-info.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.WebsocketFacade.java">com/wegas/core/ejb/WebsocketFacade.java</a>
                 </td>
                 <td>
                   0
@@ -2292,35 +2572,7 @@
                   0
                 </td>
                 <td>
-                  1
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.security.persistence.Role.java">com/wegas/core/security/persistence/Role.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  33
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.ListUtils.java">com/wegas/core/persistence/ListUtils.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  21
+                  26
                 </td>
               </tr>
                           <tr>
@@ -2339,34 +2591,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.JackrabbitConnector.java">com/wegas/core/jcr/JackrabbitConnector.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  21
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.leaderway.persistence.DialogueTransition.java">com/wegas/leaderway/persistence/DialogueTransition.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.app.jsf.controllers.AbstractGameController.java">com/wegas/app/jsf/controllers/AbstractGameController.java</a>
                 </td>
                 <td>
@@ -2376,7 +2600,7 @@
                   0
                 </td>
                 <td>
-                  15
+                  21
                 </td>
               </tr>
                           <tr>
@@ -2409,7 +2633,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mcq.persistence.Reply.java">com/wegas/mcq/persistence/Reply.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.statemachine.Transition.java">com/wegas/core/persistence/variable/statemachine/Transition.java</a>
                 </td>
                 <td>
                   0
@@ -2418,7 +2642,7 @@
                   0
                 </td>
                 <td>
-                  26
+                  27
                 </td>
               </tr>
                           <tr>
@@ -2437,7 +2661,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.persistence.variable.statemachine.Transition.java">com/wegas/core/persistence/variable/statemachine/Transition.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.mononpoly.persistence.ObjectInstance.java">com/wegas/mononpoly/persistence/ObjectInstance.java</a>
                 </td>
                 <td>
                   0
@@ -2446,7 +2670,7 @@
                   0
                 </td>
                 <td>
-                  27
+                  8
                 </td>
               </tr>
                           <tr>
@@ -2460,7 +2684,7 @@
                   0
                 </td>
                 <td>
-                  36
+                  35
                 </td>
               </tr>
                           <tr>
@@ -2479,7 +2703,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.ejb.AbstractFacadeImpl.java">com/wegas/core/ejb/AbstractFacadeImpl.java</a>
+                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.content.ContentConnector.java">com/wegas/core/jcr/content/ContentConnector.java</a>
                 </td>
                 <td>
                   0
@@ -2488,7 +2712,7 @@
                   0
                 </td>
                 <td>
-                  43
+                  204
                 </td>
               </tr>
                           <tr>
@@ -2503,20 +2727,6 @@
                 </td>
                 <td>
                   28
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas//checkstyle.html#com.wegas.core.jcr.content.ContentConnector.java">com/wegas/core/jcr/content/ContentConnector.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  204
                 </td>
               </tr>
                       </tbody>

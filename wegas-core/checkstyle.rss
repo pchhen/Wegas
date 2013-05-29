@@ -8,8 +8,8 @@
     <language>en-us</language>
     <copyright>&#169;2013</copyright>
     <item>
-      <title>File: 171,
-             Errors: 5167,
+      <title>File: 186,
+             Errors: 5665,
              Warnings: 0,
              Infos: 0
       </title>
@@ -127,6 +127,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.rest.FileController.java">com/wegas/core/rest/FileController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  165
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.jcr.content.ContentConnectorFactory.java">com/wegas/core/jcr/content/ContentConnectorFactory.java</a>
                 </td>
                 <td>
@@ -136,7 +150,7 @@
                   0
                 </td>
                 <td>
-                  8
+                  7
                 </td>
               </tr>
                           <tr>
@@ -151,20 +165,6 @@
                 </td>
                 <td>
                   6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.rest.FileController.java">com/wegas/core/rest/FileController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  165
                 </td>
               </tr>
                           <tr>
@@ -234,7 +234,21 @@
                   0
                 </td>
                 <td>
-                  22
+                  23
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.persistence.game.GameModelContent.java">com/wegas/core/persistence/game/GameModelContent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
                 </td>
               </tr>
                           <tr>
@@ -276,7 +290,7 @@
                   0
                 </td>
                 <td>
-                  42
+                  39
                 </td>
               </tr>
                           <tr>
@@ -323,6 +337,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.rest.PageController.java">com/wegas/core/rest/PageController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  117
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.Helper.java">com/wegas/core/Helper.java</a>
                 </td>
                 <td>
@@ -333,20 +361,6 @@
                 </td>
                 <td>
                   62
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.rest.PageController.java">com/wegas/core/rest/PageController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  118
                 </td>
               </tr>
                           <tr>
@@ -444,7 +458,21 @@
                   0
                 </td>
                 <td>
-                  27
+                  32
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.persistence.variable.primitive.TextInstance.java">com/wegas/core/persistence/variable/primitive/TextInstance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
                 </td>
               </tr>
                           <tr>
@@ -458,7 +486,7 @@
                   0
                 </td>
                 <td>
-                  15
+                  19
                 </td>
               </tr>
                           <tr>
@@ -473,6 +501,34 @@
                 </td>
                 <td>
                   40
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.websocket.pusher.PusherRequest.java">com/wegas/core/websocket/pusher/PusherRequest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  141
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.event.EntityUpdatedEvent.java">com/wegas/core/event/EntityUpdatedEvent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
                 </td>
               </tr>
                           <tr>
@@ -500,7 +556,7 @@
                   0
                 </td>
                 <td>
-                  45
+                  44
                 </td>
               </tr>
                           <tr>
@@ -603,6 +659,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.persistence.variable.ListDescriptorI.java">com/wegas/core/persistence/variable/ListDescriptorI.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.session.package-info.java">com/wegas/core/session/package-info.java</a>
                 </td>
                 <td>
@@ -626,7 +696,21 @@
                   0
                 </td>
                 <td>
-                  40
+                  52
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.event.RequestCommit.java">com/wegas/core/event/RequestCommit.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
                 </td>
               </tr>
                           <tr>
@@ -645,20 +729,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.rest.ScriptLibrary.java">com/wegas/core/rest/ScriptLibrary.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  16
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.persistence.variable.VariableDescriptor.java">com/wegas/core/persistence/variable/VariableDescriptor.java</a>
                 </td>
                 <td>
@@ -668,7 +738,7 @@
                   0
                 </td>
                 <td>
-                  77
+                  75
                 </td>
               </tr>
                           <tr>
@@ -729,6 +799,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.websocket.pusher.Pusher.java">com/wegas/core/websocket/pusher/Pusher.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  89
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.persistence.variable.VariableInstance.java">com/wegas/core/persistence/variable/VariableInstance.java</a>
                 </td>
                 <td>
@@ -766,7 +850,7 @@
                   0
                 </td>
                 <td>
-                  119
+                  121
                 </td>
               </tr>
                           <tr>
@@ -780,7 +864,7 @@
                   0
                 </td>
                 <td>
-                  38
+                  39
                 </td>
               </tr>
                           <tr>
@@ -794,7 +878,7 @@
                   0
                 </td>
                 <td>
-                  92
+                  98
                 </td>
               </tr>
                           <tr>
@@ -808,7 +892,7 @@
                   0
                 </td>
                 <td>
-                  17
+                  16
                 </td>
               </tr>
                           <tr>
@@ -836,7 +920,21 @@
                   0
                 </td>
                 <td>
-                  41
+                  45
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.event.ServerEvent.java">com/wegas/core/event/ServerEvent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
                 </td>
               </tr>
                           <tr>
@@ -850,7 +948,7 @@
                   0
                 </td>
                 <td>
-                  93
+                  94
                 </td>
               </tr>
                           <tr>
@@ -864,7 +962,7 @@
                   0
                 </td>
                 <td>
-                  87
+                  89
                 </td>
               </tr>
                           <tr>
@@ -878,7 +976,7 @@
                   0
                 </td>
                 <td>
-                  15
+                  16
                 </td>
               </tr>
                           <tr>
@@ -962,21 +1060,7 @@
                   0
                 </td>
                 <td>
-                  51
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.event.ResetEvent.java">com/wegas/core/event/ResetEvent.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  20
+                  54
                 </td>
               </tr>
                           <tr>
@@ -991,6 +1075,20 @@
                 </td>
                 <td>
                   6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.event.ResetEvent.java">com/wegas/core/event/ResetEvent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
                 </td>
               </tr>
                           <tr>
@@ -1046,7 +1144,7 @@
                   0
                 </td>
                 <td>
-                  59
+                  63
                 </td>
               </tr>
                           <tr>
@@ -1102,7 +1200,7 @@
                   0
                 </td>
                 <td>
-                  33
+                  30
                 </td>
               </tr>
                           <tr>
@@ -1191,6 +1289,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.event.CustomEvent.java">com/wegas/core/event/CustomEvent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.persistence.variable.dialogue.ResponseModel.java">com/wegas/core/persistence/variable/dialogue/ResponseModel.java</a>
                 </td>
                 <td>
@@ -1214,7 +1326,7 @@
                   0
                 </td>
                 <td>
-                  28
+                  26
                 </td>
               </tr>
                           <tr>
@@ -1228,7 +1340,7 @@
                   0
                 </td>
                 <td>
-                  51
+                  50
                 </td>
               </tr>
                           <tr>
@@ -1243,6 +1355,20 @@
                 </td>
                 <td>
                   8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.persistence.variable.primitive.TextDescriptor.java">com/wegas/core/persistence/variable/primitive/TextDescriptor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
                 </td>
               </tr>
                           <tr>
@@ -1331,6 +1457,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.rest.LibraryController.java">com/wegas/core/rest/LibraryController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.leaderway.persistence.TaskInstance.java">com/wegas/leaderway/persistence/TaskInstance.java</a>
                 </td>
                 <td>
@@ -1368,7 +1508,7 @@
                   0
                 </td>
                 <td>
-                  31
+                  30
                 </td>
               </tr>
                           <tr>
@@ -1494,7 +1634,7 @@
                   0
                 </td>
                 <td>
-                  60
+                  63
                 </td>
               </tr>
                           <tr>
@@ -1522,7 +1662,21 @@
                   0
                 </td>
                 <td>
-                  15
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.mononpoly.persistence.ObjectDescriptor.java">com/wegas/mononpoly/persistence/ObjectDescriptor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
                 </td>
               </tr>
                           <tr>
@@ -1578,7 +1732,7 @@
                   0
                 </td>
                 <td>
-                  30
+                  37
                 </td>
               </tr>
                           <tr>
@@ -1648,7 +1802,21 @@
                   0
                 </td>
                 <td>
-                  36
+                  44
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.rest.WebsocketController.java">com/wegas/core/rest/WebsocketController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
                 </td>
               </tr>
                           <tr>
@@ -1676,7 +1844,7 @@
                   0
                 </td>
                 <td>
-                  27
+                  26
                 </td>
               </tr>
                           <tr>
@@ -1690,7 +1858,7 @@
                   0
                 </td>
                 <td>
-                  108
+                  106
                 </td>
               </tr>
                           <tr>
@@ -1732,7 +1900,7 @@
                   0
                 </td>
                 <td>
-                  59
+                  56
                 </td>
               </tr>
                           <tr>
@@ -1746,7 +1914,7 @@
                   0
                 </td>
                 <td>
-                  27
+                  28
                 </td>
               </tr>
                           <tr>
@@ -1816,7 +1984,7 @@
                   0
                 </td>
                 <td>
-                  103
+                  102
                 </td>
               </tr>
                           <tr>
@@ -1830,7 +1998,21 @@
                   0
                 </td>
                 <td>
-                  86
+                  106
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.event.ExceptionEvent.java">com/wegas/core/event/ExceptionEvent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
                 </td>
               </tr>
                           <tr>
@@ -1886,7 +2068,7 @@
                   0
                 </td>
                 <td>
-                  18
+                  26
                 </td>
               </tr>
                           <tr>
@@ -1900,7 +2082,7 @@
                   0
                 </td>
                 <td>
-                  55
+                  60
                 </td>
               </tr>
                           <tr>
@@ -1970,7 +2152,7 @@
                   0
                 </td>
                 <td>
-                  22
+                  26
                 </td>
               </tr>
                           <tr>
@@ -2026,7 +2208,7 @@
                   0
                 </td>
                 <td>
-                  27
+                  43
                 </td>
               </tr>
                           <tr>
@@ -2124,7 +2306,7 @@
                   0
                 </td>
                 <td>
-                  50
+                  35
                 </td>
               </tr>
                           <tr>
@@ -2185,20 +2367,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.exception.NoResultException.java">com/wegas/core/exception/NoResultException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  3
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.rest.package-info.java">com/wegas/core/rest/package-info.java</a>
                 </td>
                 <td>
@@ -2213,6 +2381,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.exception.NoResultException.java">com/wegas/core/exception/NoResultException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.security.persistence.Role.java">com/wegas/core/security/persistence/Role.java</a>
                 </td>
                 <td>
@@ -2223,6 +2405,20 @@
                 </td>
                 <td>
                   33
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.ejb.WebsocketFacade.java">com/wegas/core/ejb/WebsocketFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
                 </td>
               </tr>
                           <tr>
@@ -2264,7 +2460,7 @@
                   0
                 </td>
                 <td>
-                  21
+                  22
                 </td>
               </tr>
                           <tr>
@@ -2283,20 +2479,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.exception.NoGameException.java">com/wegas/core/exception/NoGameException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.rest.GameController.java">com/wegas/core/rest/GameController.java</a>
                 </td>
                 <td>
@@ -2307,6 +2489,20 @@
                 </td>
                 <td>
                   68
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.core.exception.NoGameException.java">com/wegas/core/exception/NoGameException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
                 </td>
               </tr>
                           <tr>
@@ -2353,6 +2549,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.mononpoly.persistence.ObjectInstance.java">com/wegas/mononpoly/persistence/ObjectInstance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.albasim.ch/Wegas/wegas-core//checkstyle.html#com.wegas.messaging.persistence.InboxDescriptor.java">com/wegas/messaging/persistence/InboxDescriptor.java</a>
                 </td>
                 <td>
@@ -2362,7 +2572,7 @@
                   0
                 </td>
                 <td>
-                  36
+                  35
                 </td>
               </tr>
                           <tr>
@@ -2390,7 +2600,7 @@
                   0
                 </td>
                 <td>
-                  43
+                  42
                 </td>
               </tr>
                           <tr>

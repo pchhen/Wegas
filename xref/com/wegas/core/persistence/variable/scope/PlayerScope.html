@@ -37,7 +37,7 @@
 <a class="jxr_linenumber" name="27" href="#27">27</a>  <em class="jxr_javadoccomment"> * @author Francois-Xavier Aeberhard &lt;fx@red-agent.com&gt;</em>
 <a class="jxr_linenumber" name="28" href="#28">28</a>  <em class="jxr_javadoccomment"> */</em>
 <a class="jxr_linenumber" name="29" href="#29">29</a>  @Entity
-<a class="jxr_linenumber" name="30" href="#30">30</a>  @XmlType(name = <span class="jxr_string">"PlayerScope"</span>, propOrder = {<span class="jxr_string">"@class"</span>, <span class="jxr_string">"id"</span>, <span class="jxr_string">"name"</span>})
+<a class="jxr_linenumber" name="30" href="#30">30</a>  @XmlType(name = <span class="jxr_string">"PlayerScope"</span>)
 <a class="jxr_linenumber" name="31" href="#31">31</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../../com/wegas/core/persistence/variable/scope/PlayerScope.html">PlayerScope</a> <strong class="jxr_keyword">extends</strong> <a href="../../../../../../com/wegas/core/persistence/variable/scope/AbstractScope.html">AbstractScope</a> {
 <a class="jxr_linenumber" name="32" href="#32">32</a>  
 <a class="jxr_linenumber" name="33" href="#33">33</a>      <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> Logger logger = LoggerFactory.getLogger(PlayerScope.<strong class="jxr_keyword">class</strong>);
@@ -45,7 +45,7 @@
 <a class="jxr_linenumber" name="35" href="#35">35</a>  <em class="jxr_comment">     * FIXME Here we should use UserEntity reference and add a key deserializer</em>
 <a class="jxr_linenumber" name="36" href="#36">36</a>  <em class="jxr_comment">     * module</em>
 <a class="jxr_linenumber" name="37" href="#37">37</a>  <em class="jxr_comment">     */</em>
-<a class="jxr_linenumber" name="38" href="#38">38</a>      @OneToMany(cascade = {CascadeType.ALL}, fetch = FetchType.LAZY)
+<a class="jxr_linenumber" name="38" href="#38">38</a>      @OneToMany(cascade = {CascadeType.ALL}, fetch = FetchType.LAZY, orphanRemoval = <strong class="jxr_keyword">true</strong>)
 <a class="jxr_linenumber" name="39" href="#39">39</a>      @JoinColumn(name = <span class="jxr_string">"playerscope_id"</span>, referencedColumnName = <span class="jxr_string">"id"</span>)
 <a class="jxr_linenumber" name="40" href="#40">40</a>      @XmlTransient
 <a class="jxr_linenumber" name="41" href="#41">41</a>      <strong class="jxr_keyword">private</strong> Map&lt;Long, VariableInstance&gt; variableInstances = <strong class="jxr_keyword">new</strong> HashMap&lt;Long, VariableInstance&gt;();
@@ -75,8 +75,8 @@
 <a class="jxr_linenumber" name="65" href="#65">65</a>  <em class="jxr_javadoccomment">     * @param v</em>
 <a class="jxr_linenumber" name="66" href="#66">66</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="67" href="#67">67</a>      @Override
-<a class="jxr_linenumber" name="68" href="#68">68</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setVariableInstance(Long playerId, <a href="../../../../../../com/wegas/core/persistence/variable/VariableInstance.html">VariableInstance</a> v) {
-<a class="jxr_linenumber" name="69" href="#69">69</a>          <strong class="jxr_keyword">this</strong>.variableInstances.put(playerId, v);
+<a class="jxr_linenumber" name="68" href="#68">68</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setVariableInstance(Long key, <a href="../../../../../../com/wegas/core/persistence/variable/VariableInstance.html">VariableInstance</a> v) {
+<a class="jxr_linenumber" name="69" href="#69">69</a>          <strong class="jxr_keyword">this</strong>.variableInstances.put(key, v);
 <a class="jxr_linenumber" name="70" href="#70">70</a>          v.setScope(<strong class="jxr_keyword">this</strong>);
 <a class="jxr_linenumber" name="71" href="#71">71</a>      }
 <a class="jxr_linenumber" name="72" href="#72">72</a>  

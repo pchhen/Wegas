@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.3" timestamp="2013-03-08T16:45:23.483">
+<pmd version="4.3" timestamp="2013-05-29T14:28:28.806">
 <file name="C:\Users\CiGit\Documents\NetBeansProjects\Wegas\wegas-app\src\main\java\com\wegas\app\jsf\controllers\AbstractGameController.java">
-<violation beginline="35" endline="35" begincolumn="35" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="AbstractGameController" method="calculateLocale" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+<violation beginline="36" endline="36" begincolumn="35" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="AbstractGameController" method="calculateLocale" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
 Parameter 'context' is not assigned and could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="17" endcolumn="18" rule="UseStringBufferForStringAppends" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="AbstractGameController" method="getClientScripts" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#UseStringBufferForStringAppends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+<violation beginline="83" endline="83" begincolumn="17" endcolumn="18" rule="UseStringBufferForStringAppends" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="AbstractGameController" method="getStyleSheets" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#UseStringBufferForStringAppends" priority="3">
+Prefer StringBuffer over += for concatenating strings
 </violation>
 </file>
 <file name="C:\Users\CiGit\Documents\NetBeansProjects\Wegas\wegas-app\src\main\java\com\wegas\app\jsf\controllers\EditorGameController.java">

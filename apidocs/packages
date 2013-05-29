@@ -24,6 +24,7 @@ com.wegas.core.security.rest
 com.wegas.core.security.servlet
 com.wegas.core.security.util
 com.wegas.core.session
+com.wegas.core.websocket.pusher
 com.wegas.leaderway.ejb
 com.wegas.leaderway.persistence
 com.wegas.leaderway.rest
@@ -33,5 +34,6 @@ com.wegas.mcq.rest
 com.wegas.messaging.ejb
 com.wegas.messaging.persistence
 com.wegas.messaging.rest
+com.wegas.mononpoly.persistence
 com.wegas.proggame.rest
 com.wegas.app.jsf.controllers

@@ -38,7 +38,7 @@
 <a class="jxr_linenumber" name="28" href="#28">28</a>  <em class="jxr_javadoccomment"> * @author Francois-Xavier Aeberhard &lt;fx@red-agent.com&gt;</em>
 <a class="jxr_linenumber" name="29" href="#29">29</a>  <em class="jxr_javadoccomment"> */</em>
 <a class="jxr_linenumber" name="30" href="#30">30</a>  @Entity
-<a class="jxr_linenumber" name="31" href="#31">31</a>  @XmlType(name = <span class="jxr_string">"TeamScope"</span>, propOrder = {<span class="jxr_string">"@class"</span>, <span class="jxr_string">"id"</span>, <span class="jxr_string">"name"</span>})
+<a class="jxr_linenumber" name="31" href="#31">31</a>  @XmlType(name = <span class="jxr_string">"TeamScope"</span>)
 <a class="jxr_linenumber" name="32" href="#32">32</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../../com/wegas/core/persistence/variable/scope/TeamScope.html">TeamScope</a> <strong class="jxr_keyword">extends</strong> <a href="../../../../../../com/wegas/core/persistence/variable/scope/AbstractScope.html">AbstractScope</a> {
 <a class="jxr_linenumber" name="33" href="#33">33</a>  
 <a class="jxr_linenumber" name="34" href="#34">34</a>      <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> Logger logger = LoggerFactory.getLogger(TeamScope.<strong class="jxr_keyword">class</strong>.getName());
@@ -48,11 +48,11 @@
 <a class="jxr_linenumber" name="38" href="#38">38</a>  <em class="jxr_comment">     * referencedColumnName = "id"), inverseJoinColumns = @JoinColumn(name =</em>
 <a class="jxr_linenumber" name="39" href="#39">39</a>  <em class="jxr_comment">     * "variableinstance_id", referencedColumnName = "variableinstance_id"))</em>
 <a class="jxr_linenumber" name="40" href="#40">40</a>  <em class="jxr_comment">     */</em>
-<a class="jxr_linenumber" name="41" href="#41">41</a>      @OneToMany(cascade = {CascadeType.PERSIST, CascadeType.REMOVE}, fetch = FetchType.LAZY)
+<a class="jxr_linenumber" name="41" href="#41">41</a>      @OneToMany(cascade = {CascadeType.ALL}, fetch = FetchType.LAZY, orphanRemoval = <strong class="jxr_keyword">true</strong>)
 <a class="jxr_linenumber" name="42" href="#42">42</a>      @JoinColumn(name = <span class="jxr_string">"teamscope_id"</span>, referencedColumnName = <span class="jxr_string">"id"</span>)
 <a class="jxr_linenumber" name="43" href="#43">43</a>      @XmlTransient
 <a class="jxr_linenumber" name="44" href="#44">44</a>      @JsonIgnore
-<a class="jxr_linenumber" name="45" href="#45">45</a>      <strong class="jxr_keyword">private</strong> Map&lt;Long, VariableInstance&gt; teamVariableInstances = <strong class="jxr_keyword">new</strong> HashMap&lt;Long, VariableInstance&gt;();
+<a class="jxr_linenumber" name="45" href="#45">45</a>      <strong class="jxr_keyword">private</strong> Map&lt;Long, VariableInstance&gt; teamVariableInstances = <strong class="jxr_keyword">new</strong> HashMap&lt;&gt;();
 <a class="jxr_linenumber" name="46" href="#46">46</a>  
 <a class="jxr_linenumber" name="47" href="#47">47</a>      <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="48" href="#48">48</a>  <em class="jxr_javadoccomment">     *</em>

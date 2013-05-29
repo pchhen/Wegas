@@ -21,8 +21,8 @@
 <a class="jxr_linenumber" name="11" href="#11">11</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.persistence.game.Player;
 <a class="jxr_linenumber" name="12" href="#12">12</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.persistence.variable.VariableDescriptor;
 <a class="jxr_linenumber" name="13" href="#13">13</a>  <strong class="jxr_keyword">import</strong> java.util.List;
-<a class="jxr_linenumber" name="14" href="#14">14</a>  <strong class="jxr_keyword">import</strong> javax.persistence.Column;
-<a class="jxr_linenumber" name="15" href="#15">15</a>  <strong class="jxr_keyword">import</strong> javax.persistence.Entity;
+<a class="jxr_linenumber" name="14" href="#14">14</a>  <strong class="jxr_keyword">import</strong> javax.persistence.Entity;
+<a class="jxr_linenumber" name="15" href="#15">15</a>  <strong class="jxr_keyword">import</strong> javax.persistence.Lob;
 <a class="jxr_linenumber" name="16" href="#16">16</a>  <strong class="jxr_keyword">import</strong> javax.xml.bind.annotation.XmlType;
 <a class="jxr_linenumber" name="17" href="#17">17</a>  
 <a class="jxr_linenumber" name="18" href="#18">18</a>  <em class="jxr_javadoccomment">/**</em>
@@ -37,7 +37,7 @@
 <a class="jxr_linenumber" name="27" href="#27">27</a>      <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="28" href="#28">28</a>  <em class="jxr_javadoccomment">     *</em>
 <a class="jxr_linenumber" name="29" href="#29">29</a>  <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="30" href="#30">30</a>      @Column(length = 4096)
+<a class="jxr_linenumber" name="30" href="#30">30</a>      @Lob
 <a class="jxr_linenumber" name="31" href="#31">31</a>      <strong class="jxr_keyword">private</strong> String description;
 <a class="jxr_linenumber" name="32" href="#32">32</a>  
 <a class="jxr_linenumber" name="33" href="#33">33</a>      <em class="jxr_javadoccomment">/**</em>

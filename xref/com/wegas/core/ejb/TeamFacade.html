@@ -144,29 +144,29 @@
 <a class="jxr_linenumber" name="134" href="#134">134</a> 
 <a class="jxr_linenumber" name="135" href="#135">135</a>     <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="136" href="#136">136</a> <em class="jxr_javadoccomment">     *</em>
-<a class="jxr_linenumber" name="137" href="#137">137</a> <em class="jxr_javadoccomment">     * @param team</em>
-<a class="jxr_linenumber" name="138" href="#138">138</a> <em class="jxr_javadoccomment">     * @param user</em>
+<a class="jxr_linenumber" name="137" href="#137">137</a> <em class="jxr_javadoccomment">     * @param teamId</em>
+<a class="jxr_linenumber" name="138" href="#138">138</a> <em class="jxr_javadoccomment">     * @param p</em>
 <a class="jxr_linenumber" name="139" href="#139">139</a> <em class="jxr_javadoccomment">     * @return</em>
 <a class="jxr_linenumber" name="140" href="#140">140</a> <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="141" href="#141">141</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> joinTeam(<a href="../../../../com/wegas/core/persistence/game/Team.html">Team</a> team, <a href="../../../../com/wegas/core/security/persistence/User.html">User</a> user) {
-<a class="jxr_linenumber" name="142" href="#142">142</a>         <em class="jxr_comment">// logger.log(Level.INFO, "Adding user " + userId + " to team: " + teamId + ".");</em>
-<a class="jxr_linenumber" name="143" href="#143">143</a>         <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> p = <strong class="jxr_keyword">new</strong> <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a>();
-<a class="jxr_linenumber" name="144" href="#144">144</a>         p.setUser(user);
-<a class="jxr_linenumber" name="145" href="#145">145</a>         <strong class="jxr_keyword">this</strong>.joinTeam(team, p);
+<a class="jxr_linenumber" name="141" href="#141">141</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> createPlayer(Long teamId, <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> p) {
+<a class="jxr_linenumber" name="142" href="#142">142</a>         <a href="../../../../com/wegas/core/persistence/game/Team.html">Team</a> t = <strong class="jxr_keyword">this</strong>.find(teamId);
+<a class="jxr_linenumber" name="143" href="#143">143</a>         <strong class="jxr_keyword">this</strong>.joinTeam(t, p);
+<a class="jxr_linenumber" name="144" href="#144">144</a>         <strong class="jxr_keyword">return</strong> p;
+<a class="jxr_linenumber" name="145" href="#145">145</a>     }
 <a class="jxr_linenumber" name="146" href="#146">146</a> 
-<a class="jxr_linenumber" name="147" href="#147">147</a>         <strong class="jxr_keyword">this</strong>.addRights(p.getGame());
-<a class="jxr_linenumber" name="148" href="#148">148</a>         <strong class="jxr_keyword">return</strong> p;
-<a class="jxr_linenumber" name="149" href="#149">149</a>     }
-<a class="jxr_linenumber" name="150" href="#150">150</a> 
-<a class="jxr_linenumber" name="151" href="#151">151</a>     <em class="jxr_javadoccomment">/**</em>
-<a class="jxr_linenumber" name="152" href="#152">152</a> <em class="jxr_javadoccomment">     *</em>
-<a class="jxr_linenumber" name="153" href="#153">153</a> <em class="jxr_javadoccomment">     * @param teamId</em>
-<a class="jxr_linenumber" name="154" href="#154">154</a> <em class="jxr_javadoccomment">     * @param userId</em>
-<a class="jxr_linenumber" name="155" href="#155">155</a> <em class="jxr_javadoccomment">     * @return</em>
-<a class="jxr_linenumber" name="156" href="#156">156</a> <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="157" href="#157">157</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> joinTeam(Long teamId, Long userId) {
-<a class="jxr_linenumber" name="158" href="#158">158</a>         <em class="jxr_comment">// logger.log(Level.INFO, "Adding user " + userId + " to team: " + teamId + ".");</em>
-<a class="jxr_linenumber" name="159" href="#159">159</a>         <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>.joinTeam(<strong class="jxr_keyword">this</strong>.find(teamId), userFacade.find(userId));
+<a class="jxr_linenumber" name="147" href="#147">147</a>     <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="148" href="#148">148</a> <em class="jxr_javadoccomment">     *</em>
+<a class="jxr_linenumber" name="149" href="#149">149</a> <em class="jxr_javadoccomment">     * @param team</em>
+<a class="jxr_linenumber" name="150" href="#150">150</a> <em class="jxr_javadoccomment">     * @param user</em>
+<a class="jxr_linenumber" name="151" href="#151">151</a> <em class="jxr_javadoccomment">     * @return</em>
+<a class="jxr_linenumber" name="152" href="#152">152</a> <em class="jxr_javadoccomment">     */</em>
+<a class="jxr_linenumber" name="153" href="#153">153</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> joinTeam(<a href="../../../../com/wegas/core/persistence/game/Team.html">Team</a> team, <a href="../../../../com/wegas/core/security/persistence/User.html">User</a> user) {
+<a class="jxr_linenumber" name="154" href="#154">154</a>         <em class="jxr_comment">// logger.log(Level.INFO, "Adding user " + userId + " to team: " + teamId + ".");</em>
+<a class="jxr_linenumber" name="155" href="#155">155</a>         <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> p = <strong class="jxr_keyword">new</strong> <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a>();
+<a class="jxr_linenumber" name="156" href="#156">156</a>         p.setUser(user);
+<a class="jxr_linenumber" name="157" href="#157">157</a>         <strong class="jxr_keyword">this</strong>.joinTeam(team, p);
+<a class="jxr_linenumber" name="158" href="#158">158</a>         <strong class="jxr_keyword">this</strong>.addRights(p.getGame());
+<a class="jxr_linenumber" name="159" href="#159">159</a>         <strong class="jxr_keyword">return</strong> p;
 <a class="jxr_linenumber" name="160" href="#160">160</a>     }
 <a class="jxr_linenumber" name="161" href="#161">161</a> 
 <a class="jxr_linenumber" name="162" href="#162">162</a>     <em class="jxr_javadoccomment">/**</em>
@@ -174,23 +174,23 @@
 <a class="jxr_linenumber" name="164" href="#164">164</a> <em class="jxr_javadoccomment">     * @param team</em>
 <a class="jxr_linenumber" name="165" href="#165">165</a> <em class="jxr_javadoccomment">     * @param player</em>
 <a class="jxr_linenumber" name="166" href="#166">166</a> <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="167" href="#167">167</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> joinTeam(<a href="../../../../com/wegas/core/persistence/game/Team.html">Team</a> team, <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> player) {
+<a class="jxr_linenumber" name="167" href="#167">167</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">void</strong> joinTeam(<a href="../../../../com/wegas/core/persistence/game/Team.html">Team</a> team, <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> player) {
 <a class="jxr_linenumber" name="168" href="#168">168</a>         team.addPlayer(player);
-<a class="jxr_linenumber" name="169" href="#169">169</a>         em.flush();
-<a class="jxr_linenumber" name="170" href="#170">170</a>         em.refresh(player);
-<a class="jxr_linenumber" name="171" href="#171">171</a>         team.getGame().getGameModel().propagateDefaultInstance(false);
-<a class="jxr_linenumber" name="172" href="#172">172</a>     }
-<a class="jxr_linenumber" name="173" href="#173">173</a> 
-<a class="jxr_linenumber" name="174" href="#174">174</a>     <em class="jxr_javadoccomment">/**</em>
-<a class="jxr_linenumber" name="175" href="#175">175</a> <em class="jxr_javadoccomment">     *</em>
-<a class="jxr_linenumber" name="176" href="#176">176</a> <em class="jxr_javadoccomment">     * @param teamId</em>
-<a class="jxr_linenumber" name="177" href="#177">177</a> <em class="jxr_javadoccomment">     * @param p</em>
-<a class="jxr_linenumber" name="178" href="#178">178</a> <em class="jxr_javadoccomment">     * @return</em>
-<a class="jxr_linenumber" name="179" href="#179">179</a> <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="180" href="#180">180</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> createPlayer(Long teamId, <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> p) {
-<a class="jxr_linenumber" name="181" href="#181">181</a>         <a href="../../../../com/wegas/core/persistence/game/Team.html">Team</a> t = <strong class="jxr_keyword">this</strong>.find(teamId);
-<a class="jxr_linenumber" name="182" href="#182">182</a>         <strong class="jxr_keyword">this</strong>.joinTeam(t, p);
-<a class="jxr_linenumber" name="183" href="#183">183</a>         <strong class="jxr_keyword">return</strong> p;
+<a class="jxr_linenumber" name="169" href="#169">169</a>         em.persist(player);
+<a class="jxr_linenumber" name="170" href="#170">170</a>         <em class="jxr_comment">//em.flush();</em>
+<a class="jxr_linenumber" name="171" href="#171">171</a>         <em class="jxr_comment">//em.refresh(player);</em>
+<a class="jxr_linenumber" name="172" href="#172">172</a>         team.getGame().getGameModel().propagateDefaultInstance(false);
+<a class="jxr_linenumber" name="173" href="#173">173</a>     }
+<a class="jxr_linenumber" name="174" href="#174">174</a> 
+<a class="jxr_linenumber" name="175" href="#175">175</a>     <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="176" href="#176">176</a> <em class="jxr_javadoccomment">     *</em>
+<a class="jxr_linenumber" name="177" href="#177">177</a> <em class="jxr_javadoccomment">     * @param teamId</em>
+<a class="jxr_linenumber" name="178" href="#178">178</a> <em class="jxr_javadoccomment">     * @param userId</em>
+<a class="jxr_linenumber" name="179" href="#179">179</a> <em class="jxr_javadoccomment">     * @return</em>
+<a class="jxr_linenumber" name="180" href="#180">180</a> <em class="jxr_javadoccomment">     */</em>
+<a class="jxr_linenumber" name="181" href="#181">181</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> joinTeam(Long teamId, Long userId) {
+<a class="jxr_linenumber" name="182" href="#182">182</a>         <em class="jxr_comment">// logger.log(Level.INFO, "Adding user " + userId + " to team: " + teamId + ".");</em>
+<a class="jxr_linenumber" name="183" href="#183">183</a>         <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>.joinTeam(<strong class="jxr_keyword">this</strong>.find(teamId), userFacade.find(userId));
 <a class="jxr_linenumber" name="184" href="#184">184</a>     }
 <a class="jxr_linenumber" name="185" href="#185">185</a> 
 <a class="jxr_linenumber" name="186" href="#186">186</a>     <em class="jxr_javadoccomment">/**</em>
