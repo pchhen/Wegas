@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.3" timestamp="2013-05-29T14:28:28.806">
+<pmd version="4.3" timestamp="2013-12-12T16:31:47.123">
 <file name="C:\Users\CiGit\Documents\NetBeansProjects\Wegas\wegas-app\src\main\java\com\wegas\app\jsf\controllers\AbstractGameController.java">
 <violation beginline="36" endline="36" begincolumn="35" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="AbstractGameController" method="calculateLocale" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
 Parameter 'context' is not assigned and could be declared final
 </violation>
-<violation beginline="75" endline="75" begincolumn="17" endcolumn="18" rule="UseStringBufferForStringAppends" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="AbstractGameController" method="getClientScripts" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#UseStringBufferForStringAppends" priority="3">
+<violation beginline="76" endline="76" begincolumn="17" endcolumn="18" rule="UseStringBufferForStringAppends" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="AbstractGameController" method="getClientScripts" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#UseStringBufferForStringAppends" priority="3">
 Prefer StringBuffer over += for concatenating strings
 </violation>
-<violation beginline="83" endline="83" begincolumn="17" endcolumn="18" rule="UseStringBufferForStringAppends" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="AbstractGameController" method="getStyleSheets" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#UseStringBufferForStringAppends" priority="3">
+<violation beginline="84" endline="84" begincolumn="17" endcolumn="18" rule="UseStringBufferForStringAppends" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="AbstractGameController" method="getStyleSheets" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#UseStringBufferForStringAppends" priority="3">
 Prefer StringBuffer over += for concatenating strings
 </violation>
 </file>
 <file name="C:\Users\CiGit\Documents\NetBeansProjects\Wegas\wegas-app\src\main\java\com\wegas\app\jsf\controllers\EditorGameController.java">
-<violation beginline="34" endline="165" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.wegas.app.jsf.controllers" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
-The class 'EditorGameController' has a Cyclomatic Complexity of 3 (Highest = 11).
+<violation beginline="35" endline="171" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.wegas.app.jsf.controllers" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'EditorGameController' has a Cyclomatic Complexity of 3 (Highest = 12).
 </violation>
-<violation beginline="72" endline="122" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.wegas.app.jsf.controllers" class="EditorGameController" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
-The method 'init' has a Cyclomatic Complexity of 11.
+<violation beginline="73" endline="128" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.wegas.app.jsf.controllers" class="EditorGameController" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'init' has a Cyclomatic Complexity of 12.
 </violation>
-<violation beginline="134" endline="134" begincolumn="27" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="EditorGameController" method="setTeamId" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+<violation beginline="92" endline="92" begincolumn="17" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="EditorGameController" method="init" variable="gameModel" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'gameModel' could be declared final
+</violation>
+<violation beginline="110" endline="110" begincolumn="26" endcolumn="26" rule="ShortVariable" ruleset="Naming Rules" package="com.wegas.app.jsf.controllers" class="EditorGameController" method="init" variable="g" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like g
+</violation>
+<violation beginline="110" endline="110" begincolumn="21" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="EditorGameController" method="init" variable="g" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'g' could be declared final
+</violation>
+<violation beginline="140" endline="140" begincolumn="27" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="EditorGameController" method="setTeamId" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
 Parameter 'teamId' is not assigned and could be declared final
 </violation>
-<violation beginline="148" endline="148" begincolumn="27" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="EditorGameController" method="setGameId" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+<violation beginline="154" endline="154" begincolumn="27" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="EditorGameController" method="setGameId" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
 Parameter 'gameId' is not assigned and could be declared final
 </violation>
-<violation beginline="162" endline="162" begincolumn="32" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="EditorGameController" method="setGameModelId" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+<violation beginline="168" endline="168" begincolumn="32" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="EditorGameController" method="setGameModelId" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
 Parameter 'gameModelId' is not assigned and could be declared final
 </violation>
 </file>
 <file name="C:\Users\CiGit\Documents\NetBeansProjects\Wegas\wegas-app\src\main\java\com\wegas\app\jsf\controllers\ErrorController.java">
-<violation beginline="13" endline="13" begincolumn="1" endcolumn="31" rule="UnusedImports" ruleset="Import Statement Rules" package="com.wegas.app.jsf.controllers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
-Avoid unused imports such as 'java.util.logging.Level'
-</violation>
-<violation beginline="14" endline="14" begincolumn="1" endcolumn="32" rule="UnusedImports" ruleset="Import Statement Rules" package="com.wegas.app.jsf.controllers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
-Avoid unused imports such as 'java.util.logging.Logger'
-</violation>
-<violation beginline="16" endline="16" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="com.wegas.app.jsf.controllers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
-Avoid unused imports such as 'javax.faces.context.ExternalContext'
-</violation>
-<violation beginline="28" endline="28" begincolumn="43" endcolumn="95" rule="VariableNamingConventions" ruleset="Naming Rules" package="com.wegas.app.jsf.controllers" class="ErrorController" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+<violation beginline="25" endline="25" begincolumn="43" endcolumn="95" rule="VariableNamingConventions" ruleset="Naming Rules" package="com.wegas.app.jsf.controllers" class="ErrorController" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
 Variables that are final and static should be in all caps.
 </violation>
-<violation beginline="34" endline="34" begincolumn="33" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="ErrorController" method="setErrorMessage" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+<violation beginline="31" endline="31" begincolumn="33" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="ErrorController" method="setErrorMessage" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
 Parameter 'errorMessage' is not assigned and could be declared final
 </violation>
-<violation beginline="38" endline="38" begincolumn="26" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="ErrorController" method="dispatch" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+<violation beginline="35" endline="35" begincolumn="26" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="ErrorController" method="dispatch" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
 Parameter 'errorMsg' is not assigned and could be declared final
 </violation>
 </file>
@@ -54,16 +54,16 @@ Parameter 'gameId' is not assigned and could be declared final
 </violation>
 </file>
 <file name="C:\Users\CiGit\Documents\NetBeansProjects\Wegas\wegas-app\src\main\java\com\wegas\app\jsf\controllers\RequestController.java">
-<violation beginline="69" endline="69" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="RequestController" method="setLang" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+<violation beginline="70" endline="70" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="RequestController" method="setLang" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
 Parameter 'lang' is not assigned and could be declared final
 </violation>
-<violation beginline="80" endline="80" begincolumn="9" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="RequestController" method="getLocale" variable="context" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+<violation beginline="81" endline="81" begincolumn="9" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="RequestController" method="getLocale" variable="context" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
 Local variable 'context' could be declared final
 </violation>
-<violation beginline="105" endline="105" begincolumn="22" endcolumn="23" rule="UseStringBufferForStringAppends" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="RequestController" method="getCurrentRoles" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#UseStringBufferForStringAppends" priority="3">
+<violation beginline="107" endline="107" begincolumn="26" endcolumn="27" rule="UseStringBufferForStringAppends" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="RequestController" method="getCurrentRoles" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#UseStringBufferForStringAppends" priority="3">
 Prefer StringBuffer over += for concatenating strings
 </violation>
-<violation beginline="120" endline="120" begincolumn="26" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="RequestController" method="setDebug" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+<violation beginline="125" endline="125" begincolumn="26" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wegas.app.jsf.controllers" class="RequestController" method="setDebug" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
 Parameter 'debug' is not assigned and could be declared final
 </violation>
 </file>

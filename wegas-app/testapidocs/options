@@ -21,7 +21,7 @@
 -linkoffline
 'http://download.oracle.com/javase/6/docs/api' 'C:/Users/CiGit/Documents/NetBeansProjects/Wegas/wegas-app/target/javadoc-bundle-options'
 -linkoffline
-'http://www.albasim.ch/Wegas/wegas-core/apidocs' 'C:/Users/CiGit/Documents/NetBeansProjects/Wegas/wegas-core/target/site/testapidocs'
+'http://wegas.albasim.ch/wegas-core/apidocs' 'C:/Users/CiGit/Documents/NetBeansProjects/Wegas/wegas-core/target/site/testapidocs'
 -use
 -version
 -windowtitle

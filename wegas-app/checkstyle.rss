@@ -3,7 +3,7 @@
 <rss version="0.91">
   <channel>
     <title>wegas-app - Checkstyle report</title>
-    <link>http://www.albasim.ch/Wegas/wegas-app/</link>
+    <link>http://wegas.albasim.ch/wegas-app</link>
     <description>wegas-app - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2013</copyright>
@@ -13,9 +13,9 @@
              Warnings: 0,
              Infos: 0
       </title>
-            <link>http://www.albasim.ch/Wegas/wegas-app//checkstyle.html</link>
+            <link>http://wegas.albasim.ch/wegas-app/checkstyle.html</link>
       <description>
-        <p>Click <a href="http://www.albasim.ch/Wegas/wegas-app//checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="http://wegas.albasim.ch/wegas-app/checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
@@ -29,7 +29,7 @@
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-app//checkstyle.html#com.wegas.app.jsf.controllers.EditorGameController.java">com/wegas/app/jsf/controllers/EditorGameController.java</a>
+                  <a href="http://wegas.albasim.ch/wegas-app/checkstyle.html#com.wegas.app.jsf.controllers.EditorGameController.java">com/wegas/app/jsf/controllers/EditorGameController.java</a>
                 </td>
                 <td>
                   0
@@ -43,7 +43,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-app//checkstyle.html#com.wegas.app.jsf.controllers.SingleLobbyController.java">com/wegas/app/jsf/controllers/SingleLobbyController.java</a>
+                  <a href="http://wegas.albasim.ch/wegas-app/checkstyle.html#com.wegas.app.jsf.controllers.SingleLobbyController.java">com/wegas/app/jsf/controllers/SingleLobbyController.java</a>
                 </td>
                 <td>
                   0
@@ -52,12 +52,12 @@
                   0
                 </td>
                 <td>
-                  22
+                  24
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-app//checkstyle.html#com.wegas.app.jsf.controllers.AbstractGameController.java">com/wegas/app/jsf/controllers/AbstractGameController.java</a>
+                  <a href="http://wegas.albasim.ch/wegas-app/checkstyle.html#com.wegas.app.jsf.controllers.AbstractGameController.java">com/wegas/app/jsf/controllers/AbstractGameController.java</a>
                 </td>
                 <td>
                   0
@@ -71,7 +71,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-app//checkstyle.html#com.wegas.app.jsf.controllers.GameController.java">com/wegas/app/jsf/controllers/GameController.java</a>
+                  <a href="http://wegas.albasim.ch/wegas-app/checkstyle.html#com.wegas.app.jsf.controllers.GameController.java">com/wegas/app/jsf/controllers/GameController.java</a>
                 </td>
                 <td>
                   0
@@ -85,7 +85,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-app//checkstyle.html#com.wegas.app.jsf.controllers.RequestController.java">com/wegas/app/jsf/controllers/RequestController.java</a>
+                  <a href="http://wegas.albasim.ch/wegas-app/checkstyle.html#com.wegas.app.jsf.controllers.RequestController.java">com/wegas/app/jsf/controllers/RequestController.java</a>
                 </td>
                 <td>
                   0
@@ -94,12 +94,12 @@
                   0
                 </td>
                 <td>
-                  18
+                  19
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-app//checkstyle.html#com.wegas.app.jsf.controllers.package-info.java">com/wegas/app/jsf/controllers/package-info.java</a>
+                  <a href="http://wegas.albasim.ch/wegas-app/checkstyle.html#com.wegas.app.jsf.controllers.package-info.java">com/wegas/app/jsf/controllers/package-info.java</a>
                 </td>
                 <td>
                   0
@@ -113,7 +113,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.albasim.ch/Wegas/wegas-app//checkstyle.html#com.wegas.app.jsf.controllers.ErrorController.java">com/wegas/app/jsf/controllers/ErrorController.java</a>
+                  <a href="http://wegas.albasim.ch/wegas-app/checkstyle.html#com.wegas.app.jsf.controllers.ErrorController.java">com/wegas/app/jsf/controllers/ErrorController.java</a>
                 </td>
                 <td>
                   0
@@ -122,7 +122,7 @@
                   0
                 </td>
                 <td>
-                  17
+                  14
                 </td>
               </tr>
                       </tbody>

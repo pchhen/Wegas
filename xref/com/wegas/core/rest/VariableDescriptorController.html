@@ -10,7 +10,7 @@
 
 <a class="jxr_linenumber" name="1" href="#1">1</a>   <em class="jxr_comment">/*</em>
 <a class="jxr_linenumber" name="2" href="#2">2</a>   <em class="jxr_comment"> * Wegas</em>
-<a class="jxr_linenumber" name="3" href="#3">3</a>   <em class="jxr_comment"> * <a href="http://www.albasim.ch/wegas/" target="alexandria_uri">http://www.albasim.ch/wegas/</a></em>
+<a class="jxr_linenumber" name="3" href="#3">3</a>   <em class="jxr_comment"> * <a href="http://wegas.albasim.ch" target="alexandria_uri">http://wegas.albasim.ch</a></em>
 <a class="jxr_linenumber" name="4" href="#4">4</a>   <em class="jxr_comment"> *</em>
 <a class="jxr_linenumber" name="5" href="#5">5</a>   <em class="jxr_comment"> * Copyright (c) 2013 School of Business and Engineering Vaud, Comem</em>
 <a class="jxr_linenumber" name="6" href="#6">6</a>   <em class="jxr_comment"> * Licensed under the MIT License</em>
@@ -20,7 +20,7 @@
 <a class="jxr_linenumber" name="10" href="#10">10</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.ejb.GameModelFacade;
 <a class="jxr_linenumber" name="11" href="#11">11</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.ejb.VariableDescriptorFacade;
 <a class="jxr_linenumber" name="12" href="#12">12</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.persistence.game.GameModel;
-<a class="jxr_linenumber" name="13" href="#13">13</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.persistence.variable.ListDescriptorI;
+<a class="jxr_linenumber" name="13" href="#13">13</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.persistence.variable.DescriptorListI;
 <a class="jxr_linenumber" name="14" href="#14">14</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.persistence.variable.VariableDescriptor;
 <a class="jxr_linenumber" name="15" href="#15">15</a>  <strong class="jxr_keyword">import</strong> java.io.IOException;
 <a class="jxr_linenumber" name="16" href="#16">16</a>  <strong class="jxr_keyword">import</strong> java.util.Collection;
@@ -108,7 +108,7 @@
 <a class="jxr_linenumber" name="98" href="#98">98</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="99" href="#99">99</a>      @POST
 <a class="jxr_linenumber" name="100" href="#100">100</a>     @Path(<span class="jxr_string">"{variableDescriptorId : [1-9][0-9]*}"</span>)
-<a class="jxr_linenumber" name="101" href="#101">101</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../com/wegas/core/persistence/variable/ListDescriptorI.html">ListDescriptorI</a> createChild(@PathParam(<span class="jxr_string">"variableDescriptorId"</span>) Long entityId, <a href="../../../../com/wegas/core/persistence/variable/VariableDescriptor.html">VariableDescriptor</a> entity) {
+<a class="jxr_linenumber" name="101" href="#101">101</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../com/wegas/core/persistence/variable/DescriptorListI.html">DescriptorListI</a> createChild(@PathParam(<span class="jxr_string">"variableDescriptorId"</span>) Long entityId, <a href="../../../../com/wegas/core/persistence/variable/VariableDescriptor.html">VariableDescriptor</a> entity) {
 <a class="jxr_linenumber" name="102" href="#102">102</a> 
 <a class="jxr_linenumber" name="103" href="#103">103</a>         SecurityUtils.getSubject().
 <a class="jxr_linenumber" name="104" href="#104">104</a>                 checkPermission(<span class="jxr_string">"GameModel:Edit:gm"</span> + variableDescriptorFacade.find(entityId).getGameModelId());
@@ -131,53 +131,79 @@
 <a class="jxr_linenumber" name="121" href="#121">121</a>         <strong class="jxr_keyword">return</strong> variableDescriptorFacade.update(entityId, entity);
 <a class="jxr_linenumber" name="122" href="#122">122</a>     }
 <a class="jxr_linenumber" name="123" href="#123">123</a> 
-<a class="jxr_linenumber" name="124" href="#124">124</a>     <em class="jxr_javadoccomment">/**</em>
-<a class="jxr_linenumber" name="125" href="#125">125</a> <em class="jxr_javadoccomment">     *</em>
-<a class="jxr_linenumber" name="126" href="#126">126</a> <em class="jxr_javadoccomment">     * @param entityId</em>
-<a class="jxr_linenumber" name="127" href="#127">127</a> <em class="jxr_javadoccomment">     * @return</em>
-<a class="jxr_linenumber" name="128" href="#128">128</a> <em class="jxr_javadoccomment">     * @throws IOException</em>
-<a class="jxr_linenumber" name="129" href="#129">129</a> <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="130" href="#130">130</a>     @POST
-<a class="jxr_linenumber" name="131" href="#131">131</a>     @Path(<span class="jxr_string">"{entityId: [1-9][0-9]*}/Duplicate"</span>)
-<a class="jxr_linenumber" name="132" href="#132">132</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../com/wegas/core/persistence/variable/VariableDescriptor.html">VariableDescriptor</a> duplicate(@PathParam(<span class="jxr_string">"entityId"</span>) Long entityId) <strong class="jxr_keyword">throws</strong> IOException {
-<a class="jxr_linenumber" name="133" href="#133">133</a> 
-<a class="jxr_linenumber" name="134" href="#134">134</a>         SecurityUtils.getSubject().checkPermission(<span class="jxr_string">"GameModel:Edit:gm"</span> + variableDescriptorFacade.find(entityId).getGameModelId());
-<a class="jxr_linenumber" name="135" href="#135">135</a> 
-<a class="jxr_linenumber" name="136" href="#136">136</a>         <strong class="jxr_keyword">return</strong> variableDescriptorFacade.duplicate(entityId);
-<a class="jxr_linenumber" name="137" href="#137">137</a>     }
+<a class="jxr_linenumber" name="124" href="#124">124</a>     @PUT
+<a class="jxr_linenumber" name="125" href="#125">125</a>     @Path(<span class="jxr_string">"{descriptorId: [1-9][0-9]*}/Move/{index: [0-9]*}"</span>)
+<a class="jxr_linenumber" name="126" href="#126">126</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> move(@PathParam(<span class="jxr_string">"descriptorId"</span>) Long descriptorId, @PathParam(<span class="jxr_string">"index"</span>) <strong class="jxr_keyword">int</strong> index) {
+<a class="jxr_linenumber" name="127" href="#127">127</a> 
+<a class="jxr_linenumber" name="128" href="#128">128</a>         SecurityUtils.getSubject().checkPermission(<span class="jxr_string">"GameModel:Edit:gm"</span> + variableDescriptorFacade.find(descriptorId).getGameModelId());
+<a class="jxr_linenumber" name="129" href="#129">129</a> 
+<a class="jxr_linenumber" name="130" href="#130">130</a>         variableDescriptorFacade.move(descriptorId, index);
+<a class="jxr_linenumber" name="131" href="#131">131</a>     }
+<a class="jxr_linenumber" name="132" href="#132">132</a> 
+<a class="jxr_linenumber" name="133" href="#133">133</a>     @PUT
+<a class="jxr_linenumber" name="134" href="#134">134</a>     @Path(<span class="jxr_string">"{descriptorId: [1-9][0-9]*}/Move/{parentDescriptorId: [1-9][0-9]*}/{index: [0-9]*}"</span>)
+<a class="jxr_linenumber" name="135" href="#135">135</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> move(@PathParam(<span class="jxr_string">"descriptorId"</span>) Long descriptorId,
+<a class="jxr_linenumber" name="136" href="#136">136</a>             @PathParam(<span class="jxr_string">"parentDescriptorId"</span>) Long parentDescriptorId,
+<a class="jxr_linenumber" name="137" href="#137">137</a>             @PathParam(<span class="jxr_string">"index"</span>) <strong class="jxr_keyword">int</strong> index) {
 <a class="jxr_linenumber" name="138" href="#138">138</a> 
-<a class="jxr_linenumber" name="139" href="#139">139</a>     <em class="jxr_javadoccomment">/**</em>
-<a class="jxr_linenumber" name="140" href="#140">140</a> <em class="jxr_javadoccomment">     *</em>
-<a class="jxr_linenumber" name="141" href="#141">141</a> <em class="jxr_javadoccomment">     * @param entityId</em>
-<a class="jxr_linenumber" name="142" href="#142">142</a> <em class="jxr_javadoccomment">     * @return</em>
-<a class="jxr_linenumber" name="143" href="#143">143</a> <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="144" href="#144">144</a>     @DELETE
-<a class="jxr_linenumber" name="145" href="#145">145</a>     @Path(<span class="jxr_string">"{entityId: [1-9][0-9]*}"</span>)
-<a class="jxr_linenumber" name="146" href="#146">146</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../com/wegas/core/persistence/variable/VariableDescriptor.html">VariableDescriptor</a> delete(@PathParam(<span class="jxr_string">"entityId"</span>) Long entityId) {
-<a class="jxr_linenumber" name="147" href="#147">147</a>         <a href="../../../../com/wegas/core/persistence/variable/VariableDescriptor.html">VariableDescriptor</a> entity = variableDescriptorFacade.find(entityId);
-<a class="jxr_linenumber" name="148" href="#148">148</a> 
-<a class="jxr_linenumber" name="149" href="#149">149</a>         SecurityUtils.getSubject().checkPermission(<span class="jxr_string">"GameModel:Edit:gm"</span> + entity.getGameModelId());
-<a class="jxr_linenumber" name="150" href="#150">150</a> 
-<a class="jxr_linenumber" name="151" href="#151">151</a>         variableDescriptorFacade.remove(entityId);
-<a class="jxr_linenumber" name="152" href="#152">152</a>         <strong class="jxr_keyword">return</strong> entity;
-<a class="jxr_linenumber" name="153" href="#153">153</a>     }
-<a class="jxr_linenumber" name="154" href="#154">154</a> 
-<a class="jxr_linenumber" name="155" href="#155">155</a>     <em class="jxr_javadoccomment">/**</em>
-<a class="jxr_linenumber" name="156" href="#156">156</a> <em class="jxr_javadoccomment">     * Resets all the variables of a given game model</em>
-<a class="jxr_linenumber" name="157" href="#157">157</a> <em class="jxr_javadoccomment">     *</em>
-<a class="jxr_linenumber" name="158" href="#158">158</a> <em class="jxr_javadoccomment">     * @param gameModelId game model id</em>
-<a class="jxr_linenumber" name="159" href="#159">159</a> <em class="jxr_javadoccomment">     * @return OK</em>
-<a class="jxr_linenumber" name="160" href="#160">160</a> <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="161" href="#161">161</a>     @GET
-<a class="jxr_linenumber" name="162" href="#162">162</a>     @Path(<span class="jxr_string">"Reset"</span>)
-<a class="jxr_linenumber" name="163" href="#163">163</a>     <strong class="jxr_keyword">public</strong> Response reset(@PathParam(<span class="jxr_string">"gameModelId"</span>) Long gameModelId) {
+<a class="jxr_linenumber" name="139" href="#139">139</a>         SecurityUtils.getSubject().checkPermission(<span class="jxr_string">"GameModel:Edit:gm"</span> + variableDescriptorFacade.find(descriptorId).getGameModelId());
+<a class="jxr_linenumber" name="140" href="#140">140</a> 
+<a class="jxr_linenumber" name="141" href="#141">141</a>         variableDescriptorFacade.move(descriptorId, parentDescriptorId, index);
+<a class="jxr_linenumber" name="142" href="#142">142</a>     }
+<a class="jxr_linenumber" name="143" href="#143">143</a> 
+<a class="jxr_linenumber" name="144" href="#144">144</a>     <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="145" href="#145">145</a> <em class="jxr_javadoccomment">     *</em>
+<a class="jxr_linenumber" name="146" href="#146">146</a> <em class="jxr_javadoccomment">     * @param entityId</em>
+<a class="jxr_linenumber" name="147" href="#147">147</a> <em class="jxr_javadoccomment">     * @return</em>
+<a class="jxr_linenumber" name="148" href="#148">148</a> <em class="jxr_javadoccomment">     * @throws IOException</em>
+<a class="jxr_linenumber" name="149" href="#149">149</a> <em class="jxr_javadoccomment">     */</em>
+<a class="jxr_linenumber" name="150" href="#150">150</a>     @POST
+<a class="jxr_linenumber" name="151" href="#151">151</a>     @Path(<span class="jxr_string">"{entityId: [1-9][0-9]*}/Duplicate"</span>)
+<a class="jxr_linenumber" name="152" href="#152">152</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../com/wegas/core/persistence/variable/VariableDescriptor.html">VariableDescriptor</a> duplicate(@PathParam(<span class="jxr_string">"entityId"</span>) Long entityId) <strong class="jxr_keyword">throws</strong> IOException {
+<a class="jxr_linenumber" name="153" href="#153">153</a> 
+<a class="jxr_linenumber" name="154" href="#154">154</a>         SecurityUtils.getSubject().checkPermission(<span class="jxr_string">"GameModel:Edit:gm"</span> + variableDescriptorFacade.find(entityId).getGameModelId());
+<a class="jxr_linenumber" name="155" href="#155">155</a>         <a href="../../../../com/wegas/core/persistence/variable/VariableDescriptor.html">VariableDescriptor</a> duplicate = variableDescriptorFacade.duplicate(entityId);
+<a class="jxr_linenumber" name="156" href="#156">156</a> 
+<a class="jxr_linenumber" name="157" href="#157">157</a>         <a href="../../../../com/wegas/core/persistence/variable/DescriptorListI.html">DescriptorListI</a> parent = variableDescriptorFacade.findParentList(duplicate);
+<a class="jxr_linenumber" name="158" href="#158">158</a>         <strong class="jxr_keyword">if</strong> (parent instanceof VariableDescriptor) {                             <em class="jxr_comment">// If the duplicated var is in a list descriptor,</em>
+<a class="jxr_linenumber" name="159" href="#159">159</a>             <strong class="jxr_keyword">return</strong> (VariableDescriptor) parent;                                 <em class="jxr_comment">// return the whole list so the editor will be updated</em>
+<a class="jxr_linenumber" name="160" href="#160">160</a>         } <strong class="jxr_keyword">else</strong> {                                                                <em class="jxr_comment">// Otherwise,</em>
+<a class="jxr_linenumber" name="161" href="#161">161</a>             <strong class="jxr_keyword">return</strong> duplicate;                                                   <em class="jxr_comment">// the duplicate is at root level</em>
+<a class="jxr_linenumber" name="162" href="#162">162</a>         }
+<a class="jxr_linenumber" name="163" href="#163">163</a>     }
 <a class="jxr_linenumber" name="164" href="#164">164</a> 
-<a class="jxr_linenumber" name="165" href="#165">165</a>         SecurityUtils.getSubject().checkPermission(<span class="jxr_string">"GameModel:Edit:gm"</span> + gameModelId);
-<a class="jxr_linenumber" name="166" href="#166">166</a> 
-<a class="jxr_linenumber" name="167" href="#167">167</a>         gameModelFacade.reset(gameModelId);
-<a class="jxr_linenumber" name="168" href="#168">168</a>         <strong class="jxr_keyword">return</strong> Response.ok().build();
-<a class="jxr_linenumber" name="169" href="#169">169</a>     }
-<a class="jxr_linenumber" name="170" href="#170">170</a> }
+<a class="jxr_linenumber" name="165" href="#165">165</a>     <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="166" href="#166">166</a> <em class="jxr_javadoccomment">     *</em>
+<a class="jxr_linenumber" name="167" href="#167">167</a> <em class="jxr_javadoccomment">     * @param entityId</em>
+<a class="jxr_linenumber" name="168" href="#168">168</a> <em class="jxr_javadoccomment">     * @return</em>
+<a class="jxr_linenumber" name="169" href="#169">169</a> <em class="jxr_javadoccomment">     */</em>
+<a class="jxr_linenumber" name="170" href="#170">170</a>     @DELETE
+<a class="jxr_linenumber" name="171" href="#171">171</a>     @Path(<span class="jxr_string">"{entityId: [1-9][0-9]*}"</span>)
+<a class="jxr_linenumber" name="172" href="#172">172</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../com/wegas/core/persistence/variable/VariableDescriptor.html">VariableDescriptor</a> delete(@PathParam(<span class="jxr_string">"entityId"</span>) Long entityId) {
+<a class="jxr_linenumber" name="173" href="#173">173</a>         <a href="../../../../com/wegas/core/persistence/variable/VariableDescriptor.html">VariableDescriptor</a> entity = variableDescriptorFacade.find(entityId);
+<a class="jxr_linenumber" name="174" href="#174">174</a> 
+<a class="jxr_linenumber" name="175" href="#175">175</a>         SecurityUtils.getSubject().checkPermission(<span class="jxr_string">"GameModel:Edit:gm"</span> + entity.getGameModelId());
+<a class="jxr_linenumber" name="176" href="#176">176</a> 
+<a class="jxr_linenumber" name="177" href="#177">177</a>         variableDescriptorFacade.remove(entityId);
+<a class="jxr_linenumber" name="178" href="#178">178</a>         <strong class="jxr_keyword">return</strong> entity;
+<a class="jxr_linenumber" name="179" href="#179">179</a>     }
+<a class="jxr_linenumber" name="180" href="#180">180</a> 
+<a class="jxr_linenumber" name="181" href="#181">181</a>     <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="182" href="#182">182</a> <em class="jxr_javadoccomment">     * Resets all the variables of a given game model</em>
+<a class="jxr_linenumber" name="183" href="#183">183</a> <em class="jxr_javadoccomment">     *</em>
+<a class="jxr_linenumber" name="184" href="#184">184</a> <em class="jxr_javadoccomment">     * @param gameModelId game model id</em>
+<a class="jxr_linenumber" name="185" href="#185">185</a> <em class="jxr_javadoccomment">     * @return OK</em>
+<a class="jxr_linenumber" name="186" href="#186">186</a> <em class="jxr_javadoccomment">     */</em>
+<a class="jxr_linenumber" name="187" href="#187">187</a>     @GET
+<a class="jxr_linenumber" name="188" href="#188">188</a>     @Path(<span class="jxr_string">"Reset"</span>)
+<a class="jxr_linenumber" name="189" href="#189">189</a>     <strong class="jxr_keyword">public</strong> Response reset(@PathParam(<span class="jxr_string">"gameModelId"</span>) Long gameModelId) {
+<a class="jxr_linenumber" name="190" href="#190">190</a> 
+<a class="jxr_linenumber" name="191" href="#191">191</a>         SecurityUtils.getSubject().checkPermission(<span class="jxr_string">"GameModel:Edit:gm"</span> + gameModelId);
+<a class="jxr_linenumber" name="192" href="#192">192</a> 
+<a class="jxr_linenumber" name="193" href="#193">193</a>         gameModelFacade.reset(gameModelId);
+<a class="jxr_linenumber" name="194" href="#194">194</a>         <strong class="jxr_keyword">return</strong> Response.ok().build();
+<a class="jxr_linenumber" name="195" href="#195">195</a>     }
+<a class="jxr_linenumber" name="196" href="#196">196</a> }
 </pre>
 <hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
 </html>

@@ -10,7 +10,7 @@
 
 <a class="jxr_linenumber" name="1" href="#1">1</a>   <em class="jxr_comment">/*</em>
 <a class="jxr_linenumber" name="2" href="#2">2</a>   <em class="jxr_comment"> * Wegas</em>
-<a class="jxr_linenumber" name="3" href="#3">3</a>   <em class="jxr_comment"> * <a href="http://www.albasim.ch/wegas/" target="alexandria_uri">http://www.albasim.ch/wegas/</a></em>
+<a class="jxr_linenumber" name="3" href="#3">3</a>   <em class="jxr_comment"> * <a href="http://wegas.albasim.ch" target="alexandria_uri">http://wegas.albasim.ch</a></em>
 <a class="jxr_linenumber" name="4" href="#4">4</a>   <em class="jxr_comment"> *</em>
 <a class="jxr_linenumber" name="5" href="#5">5</a>   <em class="jxr_comment"> * Copyright (c) 2013 School of Business and Engineering Vaud, Comem</em>
 <a class="jxr_linenumber" name="6" href="#6">6</a>   <em class="jxr_comment"> * Licensed under the MIT License</em>
@@ -70,7 +70,7 @@
 <a class="jxr_linenumber" name="60" href="#60">60</a>      <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="61" href="#61">61</a>  <em class="jxr_javadoccomment">     * This function takes two lists and merge them.&lt;br/&gt; Assumptions:&lt;br/&gt;</em>
 <a class="jxr_linenumber" name="62" href="#62">62</a>  <em class="jxr_javadoccomment">     * - An element from the new list is new if it has no</em>
-<a class="jxr_linenumber" name="63" href="#63">63</a>  <em class="jxr_javadoccomment">     * &lt;code&gt;ID&lt;/code&gt;&lt;br/&gt;</em>
+<a class="jxr_linenumber" name="63" href="#63">63</a>  <em class="jxr_javadoccomment">     * &lt;code&gt;ID&lt;/code&gt; or if it's &lt;code&gt;ID&lt;/code&gt; is missing in the old list&lt;br/&gt;</em>
 <a class="jxr_linenumber" name="64" href="#64">64</a>  <em class="jxr_javadoccomment">     * - 2 Abstract entities with the same</em>
 <a class="jxr_linenumber" name="65" href="#65">65</a>  <em class="jxr_javadoccomment">     * &lt;code&gt;ID&lt;/code&gt; have to be merged&lt;br/&gt;</em>
 <a class="jxr_linenumber" name="66" href="#66">66</a>  <em class="jxr_javadoccomment">     * - An element from the old list has</em>
@@ -92,25 +92,34 @@
 <a class="jxr_linenumber" name="82" href="#82">82</a>              }
 <a class="jxr_linenumber" name="83" href="#83">83</a>          }
 <a class="jxr_linenumber" name="84" href="#84">84</a>          ListUtils.ListKeyToMap&lt;Long, E&gt; converter = <strong class="jxr_keyword">new</strong> ListUtils.ListKeyToMap&lt;Long, E&gt;() {
-<a class="jxr_linenumber" name="85" href="#85">85</a>  
-<a class="jxr_linenumber" name="86" href="#86">86</a>              @Override
-<a class="jxr_linenumber" name="87" href="#87">87</a>              <strong class="jxr_keyword">public</strong> Long getKey(E item) {
-<a class="jxr_linenumber" name="88" href="#88">88</a>                  <strong class="jxr_keyword">return</strong> item.getId();
-<a class="jxr_linenumber" name="89" href="#89">89</a>              }
-<a class="jxr_linenumber" name="90" href="#90">90</a>          };
-<a class="jxr_linenumber" name="91" href="#91">91</a>          Map&lt;Long, E&gt; elementMap = ListUtils.listAsMap(newList, converter);      <em class="jxr_comment">//Create a map with newList based on Ids</em>
-<a class="jxr_linenumber" name="92" href="#92">92</a>          <strong class="jxr_keyword">for</strong> (Iterator&lt;E&gt; it = oldList.iterator(); it.hasNext();) {
-<a class="jxr_linenumber" name="93" href="#93">93</a>              E element = it.next();
-<a class="jxr_linenumber" name="94" href="#94">94</a>              <strong class="jxr_keyword">if</strong> (elementMap.containsKey(element.getId())) {                      <em class="jxr_comment">//old element still exists</em>
-<a class="jxr_linenumber" name="95" href="#95">95</a>                  element.merge(elementMap.get(element.getId()));                 <em class="jxr_comment">//Then merge them</em>
+<a class="jxr_linenumber" name="85" href="#85">85</a>              @Override
+<a class="jxr_linenumber" name="86" href="#86">86</a>              <strong class="jxr_keyword">public</strong> Long getKey(E item) {
+<a class="jxr_linenumber" name="87" href="#87">87</a>                  <strong class="jxr_keyword">return</strong> item.getId();
+<a class="jxr_linenumber" name="88" href="#88">88</a>              }
+<a class="jxr_linenumber" name="89" href="#89">89</a>          };
+<a class="jxr_linenumber" name="90" href="#90">90</a>          Map&lt;Long, E&gt; elementMap = ListUtils.listAsMap(newList, converter);      <em class="jxr_comment">//Create a map with newList based on Ids</em>
+<a class="jxr_linenumber" name="91" href="#91">91</a>          <strong class="jxr_keyword">for</strong> (Iterator&lt;E&gt; it = oldList.iterator(); it.hasNext();) {
+<a class="jxr_linenumber" name="92" href="#92">92</a>              E element = it.next();
+<a class="jxr_linenumber" name="93" href="#93">93</a>              <strong class="jxr_keyword">if</strong> (elementMap.containsKey(element.getId())) {                      <em class="jxr_comment">//old element still exists</em>
+<a class="jxr_linenumber" name="94" href="#94">94</a>                  element.merge(elementMap.get(element.getId()));                 <em class="jxr_comment">//Then merge them</em>
+<a class="jxr_linenumber" name="95" href="#95">95</a>                  elementMap.remove(element.getId());                             <em class="jxr_comment">//remove element from map</em>
 <a class="jxr_linenumber" name="96" href="#96">96</a>              } <strong class="jxr_keyword">else</strong> {
 <a class="jxr_linenumber" name="97" href="#97">97</a>                  it.remove();                                                    <em class="jxr_comment">//else remove that old element</em>
 <a class="jxr_linenumber" name="98" href="#98">98</a>              }
 <a class="jxr_linenumber" name="99" href="#99">99</a>          }
-<a class="jxr_linenumber" name="100" href="#100">100</a>         oldList.addAll(newElements);                                            <em class="jxr_comment">//Add all new elements</em>
-<a class="jxr_linenumber" name="101" href="#101">101</a>         <strong class="jxr_keyword">return</strong> oldList;
-<a class="jxr_linenumber" name="102" href="#102">102</a>     }
-<a class="jxr_linenumber" name="103" href="#103">103</a> }
+<a class="jxr_linenumber" name="100" href="#100">100</a>         <strong class="jxr_keyword">for</strong> (Iterator&lt;E&gt; it = elementMap.values().iterator(); it.hasNext();) {  <em class="jxr_comment">//Process remaining elements</em>
+<a class="jxr_linenumber" name="101" href="#101">101</a>             <strong class="jxr_keyword">try</strong> {
+<a class="jxr_linenumber" name="102" href="#102">102</a>                 E element = it.next();
+<a class="jxr_linenumber" name="103" href="#103">103</a>                 E newElement = (E) element.getClass().newInstance();
+<a class="jxr_linenumber" name="104" href="#104">104</a>                 newElement.merge(element);
+<a class="jxr_linenumber" name="105" href="#105">105</a>                 newElements.add(newElement);
+<a class="jxr_linenumber" name="106" href="#106">106</a>             } <strong class="jxr_keyword">catch</strong> (InstantiationException | IllegalAccessException ex) {
+<a class="jxr_linenumber" name="107" href="#107">107</a>             }
+<a class="jxr_linenumber" name="108" href="#108">108</a>         }
+<a class="jxr_linenumber" name="109" href="#109">109</a>         oldList.addAll(newElements);                                            <em class="jxr_comment">//Add all new elements</em>
+<a class="jxr_linenumber" name="110" href="#110">110</a>         <strong class="jxr_keyword">return</strong> oldList;
+<a class="jxr_linenumber" name="111" href="#111">111</a>     }
+<a class="jxr_linenumber" name="112" href="#112">112</a> }
 </pre>
 <hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
 </html>
