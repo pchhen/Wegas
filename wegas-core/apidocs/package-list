@@ -1,12 +1,12 @@
 com.wegas.core
 com.wegas.core.ejb
 com.wegas.core.ejb.statemachine
-com.wegas.core.event
+com.wegas.core.event.client
+com.wegas.core.event.internal
 com.wegas.core.exception
 com.wegas.core.jcr
 com.wegas.core.jcr.content
 com.wegas.core.jcr.page
-com.wegas.core.jcr.rest
 com.wegas.core.persistence
 com.wegas.core.persistence.game
 com.wegas.core.persistence.variable
@@ -17,6 +17,7 @@ com.wegas.core.persistence.variable.statemachine
 com.wegas.core.rest
 com.wegas.core.rest.exception
 com.wegas.core.rest.util
+com.wegas.core.rest.util.annotations
 com.wegas.core.security.ejb
 com.wegas.core.security.facebook
 com.wegas.core.security.guest

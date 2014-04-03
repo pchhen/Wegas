@@ -41,12 +41,12 @@
 <a class="jxr_linenumber" name="31" href="#31">31</a>  @Entity
 <a class="jxr_linenumber" name="32" href="#32">32</a>  @Cacheable(<strong class="jxr_keyword">true</strong>)
 <a class="jxr_linenumber" name="33" href="#33">33</a>  @NamedQueries({
-<a class="jxr_linenumber" name="34" href="#34">34</a>      @NamedQuery(name = <span class="jxr_string">"findUserPermissions"</span>, query = <span class="jxr_string">"SELECT DISTINCT accounts FROM AbstractAccount accounts JOIN accounts.permissions p WHERE p.value LIKE :instance"</span>),
-<a class="jxr_linenumber" name="35" href="#35">35</a>      @NamedQuery(name = <span class="jxr_string">"findAccountByValue"</span>, query = <span class="jxr_string">"SELECT DISTINCT abstractaccount FROM JpaAccount abstractaccount WHERE lower(abstractaccount.email) LIKE :search OR lower(abstractaccount.firstname) LIKE :search OR lower(abstractaccount.lastname) LIKE :search"</span>)})
-<a class="jxr_linenumber" name="36" href="#36">36</a>  @JsonSubTypes(value = {
-<a class="jxr_linenumber" name="37" href="#37">37</a>      @JsonSubTypes.Type(name = <span class="jxr_string">"FacebookAccount"</span>, value = FacebookAccount.<strong class="jxr_keyword">class</strong>),
-<a class="jxr_linenumber" name="38" href="#38">38</a>      @JsonSubTypes.Type(name = <span class="jxr_string">"GuestJpaAccount"</span>, value = GuestJpaAccount.<strong class="jxr_keyword">class</strong>),
-<a class="jxr_linenumber" name="39" href="#39">39</a>      @JsonSubTypes.Type(name = <span class="jxr_string">"JpaAccount"</span>, value = com.wegas.core.security.jparealm.JpaAccount.<strong class="jxr_keyword">class</strong>)
+<a class="jxr_linenumber" name="34" href="#34">34</a>      @NamedQuery(name = <span class="jxr_string">"findUserPermissions"</span>, query = <span class="jxr_string">"SELECT DISTINCT accounts FROM AbstractAccount accounts JOIN accounts.permissions p WHERE p.value LIKE :instance"</span>)})
+<a class="jxr_linenumber" name="35" href="#35">35</a>  @JsonSubTypes(value = {
+<a class="jxr_linenumber" name="36" href="#36">36</a>      @JsonSubTypes.Type(name = <span class="jxr_string">"FacebookAccount"</span>, value = FacebookAccount.<strong class="jxr_keyword">class</strong>),
+<a class="jxr_linenumber" name="37" href="#37">37</a>      @JsonSubTypes.Type(name = <span class="jxr_string">"GuestJpaAccount"</span>, value = GuestJpaAccount.<strong class="jxr_keyword">class</strong>),
+<a class="jxr_linenumber" name="38" href="#38">38</a>      @JsonSubTypes.Type(name = <span class="jxr_string">"JpaAccount"</span>, value = com.wegas.core.security.jparealm.JpaAccount.<strong class="jxr_keyword">class</strong>),
+<a class="jxr_linenumber" name="39" href="#39">39</a>      @JsonSubTypes.Type(name = <span class="jxr_string">"GameAccount"</span>, value = com.wegas.core.security.jparealm.GameAccount.<strong class="jxr_keyword">class</strong>)
 <a class="jxr_linenumber" name="40" href="#40">40</a>  })
 <a class="jxr_linenumber" name="41" href="#41">41</a>  @JsonIgnoreProperties({<span class="jxr_string">"passwordConfirm"</span>})
 <a class="jxr_linenumber" name="42" href="#42">42</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../com/wegas/core/security/persistence/AbstractAccount.html">AbstractAccount</a> <strong class="jxr_keyword">extends</strong> <a href="../../../../../com/wegas/core/persistence/AbstractEntity.html">AbstractEntity</a> {

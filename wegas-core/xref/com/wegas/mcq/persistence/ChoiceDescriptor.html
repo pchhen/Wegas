@@ -213,11 +213,11 @@
 <a class="jxr_linenumber" name="203" href="#203">203</a> <em class="jxr_javadoccomment">     * @param p</em>
 <a class="jxr_linenumber" name="204" href="#204">204</a> <em class="jxr_javadoccomment">     * @return</em>
 <a class="jxr_linenumber" name="205" href="#205">205</a> <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="206" href="#206">206</a>     <strong class="jxr_keyword">public</strong> Boolean isActive(<a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> p) {
+<a class="jxr_linenumber" name="206" href="#206">206</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">boolean</strong> isActive(<a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> p) {
 <a class="jxr_linenumber" name="207" href="#207">207</a>         <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>.getInstance(p).getActive();
 <a class="jxr_linenumber" name="208" href="#208">208</a>     }
 <a class="jxr_linenumber" name="209" href="#209">209</a> 
-<a class="jxr_linenumber" name="210" href="#210">210</a>     <strong class="jxr_keyword">public</strong> Boolean hasBeenSelected(<a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> p) {
+<a class="jxr_linenumber" name="210" href="#210">210</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">boolean</strong> hasBeenSelected(<a href="../../../../com/wegas/core/persistence/game/Player.html">Player</a> p) {
 <a class="jxr_linenumber" name="211" href="#211">211</a>         <strong class="jxr_keyword">for</strong> (Reply r : <strong class="jxr_keyword">this</strong>.getQuestion().getInstance(p).getReplies()) {
 <a class="jxr_linenumber" name="212" href="#212">212</a>             <strong class="jxr_keyword">if</strong> (r.getResult().getChoiceDescriptor().equals(<strong class="jxr_keyword">this</strong>)) {
 <a class="jxr_linenumber" name="213" href="#213">213</a>                 <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">true</strong>;

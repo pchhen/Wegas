@@ -407,7 +407,7 @@
 <a class="jxr_linenumber" name="397" href="#397">397</a>         duplicate = (DescriptorListI) vdf.duplicate(list3.getId());             <em class="jxr_comment">// Duplicate a sub child variable</em>
 <a class="jxr_linenumber" name="398" href="#398">398</a>         Assert.assertEquals(10.0, ((NumberDescriptor) ((DescriptorListI) duplicate.item(0)).item(0)).getInstance(player).getValue());
 <a class="jxr_linenumber" name="399" href="#399">399</a> 
-<a class="jxr_linenumber" name="400" href="#400">400</a>         GameModel duplicateGm = gameModelFacade.duplicate(gameModel.getId());
+<a class="jxr_linenumber" name="400" href="#400">400</a>         GameModel duplicateGm = gameModelFacade.duplicateWithDebugGame(gameModel.getId());
 <a class="jxr_linenumber" name="401" href="#401">401</a>         DescriptorListI find = (DescriptorListI) vdf.find(duplicateGm, LISTNAME1);
 <a class="jxr_linenumber" name="402" href="#402">402</a>         Assert.assertEquals(10.0, ((NumberInstance) ((NumberDescriptor) ((DescriptorListI) ((DescriptorListI) find.item(1)).item(0)).item(0)).getScope().getVariableInstances().values().iterator().next()).getValue());
 <a class="jxr_linenumber" name="403" href="#403">403</a>     }

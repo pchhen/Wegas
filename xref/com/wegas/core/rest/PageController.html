@@ -39,7 +39,7 @@
 <a class="jxr_linenumber" name="29" href="#29">29</a>  <em class="jxr_javadoccomment"> * @author Cyril Junod &lt;cyril.junod at gmail.com&gt;</em>
 <a class="jxr_linenumber" name="30" href="#30">30</a>  <em class="jxr_javadoccomment"> */</em>
 <a class="jxr_linenumber" name="31" href="#31">31</a>  @Stateless
-<a class="jxr_linenumber" name="32" href="#32">32</a>  @Path(<span class="jxr_string">"Page/{gameModelId : [0-9]+}"</span>)
+<a class="jxr_linenumber" name="32" href="#32">32</a>  @Path(<span class="jxr_string">"GameModel/{gameModelId : [0-9]+}/Page"</span>)
 <a class="jxr_linenumber" name="33" href="#33">33</a>  @Consumes(MediaType.APPLICATION_JSON)
 <a class="jxr_linenumber" name="34" href="#34">34</a>  @Produces(MediaType.APPLICATION_JSON)
 <a class="jxr_linenumber" name="35" href="#35">35</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../com/wegas/core/rest/PageController.html">PageController</a> {
@@ -280,7 +280,7 @@
 <a class="jxr_linenumber" name="270" href="#270">270</a> 
 <a class="jxr_linenumber" name="271" href="#271">271</a>         <a href="../../../../com/wegas/core/jcr/page/Pages.html">Pages</a> pages = <strong class="jxr_keyword">new</strong> <a href="../../../../com/wegas/core/jcr/page/Pages.html">Pages</a>(gameModelId);
 <a class="jxr_linenumber" name="272" href="#272">272</a>         pages.deletePage(pageId);
-<a class="jxr_linenumber" name="273" href="#273">273</a>         <strong class="jxr_keyword">return</strong> Response.ok().header(<span class="jxr_string">"Page"</span>, pageId).build();
+<a class="jxr_linenumber" name="273" href="#273">273</a>         <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>.getIndex(gameModelId);
 <a class="jxr_linenumber" name="274" href="#274">274</a>     }
 <a class="jxr_linenumber" name="275" href="#275">275</a> 
 <a class="jxr_linenumber" name="276" href="#276">276</a>     <em class="jxr_javadoccomment">/**</em>

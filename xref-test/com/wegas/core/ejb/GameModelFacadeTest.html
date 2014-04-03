@@ -75,7 +75,7 @@
 <a class="jxr_linenumber" name="65" href="#65">65</a>          Assert.assertEquals(1, gameModelFacade.findAll().size());
 <a class="jxr_linenumber" name="66" href="#66">66</a>  
 <a class="jxr_linenumber" name="67" href="#67">67</a>          gameModel = gameModelFacade.find(gameModel.getId());
-<a class="jxr_linenumber" name="68" href="#68">68</a>          Assert.assertEquals(gameModel.getName(), name);
+<a class="jxr_linenumber" name="68" href="#68">68</a>          Assert.assertEquals(name, gameModel.getName());
 <a class="jxr_linenumber" name="69" href="#69">69</a>          Assert.assertEquals(SCRIPTCONTENT, gameModel.getClientScriptLibrary().get(SCRIPTNAME).getContent());
 <a class="jxr_linenumber" name="70" href="#70">70</a>          Assert.assertEquals(SCRIPTCONTENT, gameModel.getProperty(SCRIPTNAME));
 <a class="jxr_linenumber" name="71" href="#71">71</a>          Assert.assertEquals(SCRIPTCONTENT, gameModel.getCssLibrary().get(SCRIPTNAME).getContent());

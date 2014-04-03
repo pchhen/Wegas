@@ -19,7 +19,7 @@
 <a class="jxr_linenumber" name="9" href="#9">9</a>   
 <a class="jxr_linenumber" name="10" href="#10">10</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.ejb.VariableDescriptorFacade;
 <a class="jxr_linenumber" name="11" href="#11">11</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.ejb.VariableInstanceFacade;
-<a class="jxr_linenumber" name="12" href="#12">12</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.event.DescriptorRevivedEvent;
+<a class="jxr_linenumber" name="12" href="#12">12</a>  <strong class="jxr_keyword">import</strong> com.wegas.core.event.internal.DescriptorRevivedEvent;
 <a class="jxr_linenumber" name="13" href="#13">13</a>  <strong class="jxr_keyword">import</strong> com.wegas.resourceManagement.persistence.AbstractAssignement;
 <a class="jxr_linenumber" name="14" href="#14">14</a>  <strong class="jxr_keyword">import</strong> com.wegas.resourceManagement.persistence.Activity;
 <a class="jxr_linenumber" name="15" href="#15">15</a>  <strong class="jxr_keyword">import</strong> com.wegas.resourceManagement.persistence.Assignment;
@@ -229,7 +229,7 @@
 <a class="jxr_linenumber" name="219" href="#219">219</a>         <strong class="jxr_keyword">return</strong> ti;
 <a class="jxr_linenumber" name="220" href="#220">220</a>     }
 <a class="jxr_linenumber" name="221" href="#221">221</a> 
-<a class="jxr_linenumber" name="222" href="#222">222</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> descriptorRevivedEvent(@Observes <a href="../../../../com/wegas/core/event/DescriptorRevivedEvent.html">DescriptorRevivedEvent</a> event) {
+<a class="jxr_linenumber" name="222" href="#222">222</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> descriptorRevivedEvent(@Observes <a href="../../../../com/wegas/core/event/internal/DescriptorRevivedEvent.html">DescriptorRevivedEvent</a> event) {
 <a class="jxr_linenumber" name="223" href="#223">223</a>         logger.debug(<span class="jxr_string">"Received DescriptorRevivedEvent event"</span>);
 <a class="jxr_linenumber" name="224" href="#224">224</a> 
 <a class="jxr_linenumber" name="225" href="#225">225</a>         <strong class="jxr_keyword">if</strong> (event.getEntity() instanceof TaskDescriptor) {

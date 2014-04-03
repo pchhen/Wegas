@@ -39,28 +39,28 @@
 <a class="jxr_linenumber" name="29" href="#29">29</a>      <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> GlassFish glassfish;
 <a class="jxr_linenumber" name="30" href="#30">30</a>      <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> String appName;
 <a class="jxr_linenumber" name="31" href="#31">31</a>  
-<a class="jxr_linenumber" name="32" href="#32">32</a>      @BeforeClass
-<a class="jxr_linenumber" name="33" href="#33">33</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">void</strong> setUpClass() <strong class="jxr_keyword">throws</strong> Exception {
-<a class="jxr_linenumber" name="34" href="#34">34</a>          GlassFishProperties glassfishProperties = <strong class="jxr_keyword">new</strong> GlassFishProperties();
-<a class="jxr_linenumber" name="35" href="#35">35</a>          glassfishProperties.setPort(<span class="jxr_string">"http-listener"</span>, 5353);
-<a class="jxr_linenumber" name="36" href="#36">36</a>          glassfishProperties.setPort(<span class="jxr_string">"https-listener"</span>, 5252);
-<a class="jxr_linenumber" name="37" href="#37">37</a>  
-<a class="jxr_linenumber" name="38" href="#38">38</a>          glassfish = GlassFishRuntime.bootstrap().newGlassFish(glassfishProperties);
-<a class="jxr_linenumber" name="39" href="#39">39</a>          Logger.getLogger(<span class="jxr_string">"javax.enterprise.system.tools.deployment"</span>).setLevel(Level.OFF);
-<a class="jxr_linenumber" name="40" href="#40">40</a>          Logger.getLogger(<span class="jxr_string">"javax.enterprise.system"</span>).setLevel(Level.OFF);
-<a class="jxr_linenumber" name="41" href="#41">41</a>          glassfish.start();
-<a class="jxr_linenumber" name="42" href="#42">42</a>  
-<a class="jxr_linenumber" name="43" href="#43">43</a>          ScatteredArchive archive = <strong class="jxr_keyword">new</strong> ScatteredArchive(<span class="jxr_string">"Wegas"</span>, ScatteredArchive.Type.WAR, <strong class="jxr_keyword">new</strong> File(<span class="jxr_string">"./src/main/webapp/wegas-app/"</span>));
-<a class="jxr_linenumber" name="44" href="#44">44</a>          appName = glassfish.getDeployer().deploy(archive.toURI(), <span class="jxr_string">"--contextroot=wegas-app"</span>);
-<a class="jxr_linenumber" name="45" href="#45">45</a>  
-<a class="jxr_linenumber" name="46" href="#46">46</a>          JWebUnit.setBaseUrl(<span class="jxr_string">"http://localhost:5353/wegas-app/"</span>);
-<a class="jxr_linenumber" name="47" href="#47">47</a>      }
-<a class="jxr_linenumber" name="48" href="#48">48</a>  
-<a class="jxr_linenumber" name="49" href="#49">49</a>      @AfterClass
-<a class="jxr_linenumber" name="50" href="#50">50</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">void</strong> tearDownClass() <strong class="jxr_keyword">throws</strong> Exception {
-<a class="jxr_linenumber" name="51" href="#51">51</a>          glassfish.getDeployer().undeploy(appName);
-<a class="jxr_linenumber" name="52" href="#52">52</a>          glassfish.dispose();
-<a class="jxr_linenumber" name="53" href="#53">53</a>      }
+<a class="jxr_linenumber" name="32" href="#32">32</a>  <em class="jxr_comment">//    @BeforeClass</em>
+<a class="jxr_linenumber" name="33" href="#33">33</a>  <em class="jxr_comment">//    public static void setUpClass() throws Exception {</em>
+<a class="jxr_linenumber" name="34" href="#34">34</a>  <em class="jxr_comment">//        GlassFishProperties glassfishProperties = new GlassFishProperties();</em>
+<a class="jxr_linenumber" name="35" href="#35">35</a>  <em class="jxr_comment">//        glassfishProperties.setPort("http-listener", 5353);</em>
+<a class="jxr_linenumber" name="36" href="#36">36</a>  <em class="jxr_comment">//        glassfishProperties.setPort("https-listener", 5252);</em>
+<a class="jxr_linenumber" name="37" href="#37">37</a>  <em class="jxr_comment">//</em>
+<a class="jxr_linenumber" name="38" href="#38">38</a>  <em class="jxr_comment">//        glassfish = GlassFishRuntime.bootstrap().newGlassFish(glassfishProperties);</em>
+<a class="jxr_linenumber" name="39" href="#39">39</a>  <em class="jxr_comment">//        Logger.getLogger("javax.enterprise.system.tools.deployment").setLevel(Level.OFF);</em>
+<a class="jxr_linenumber" name="40" href="#40">40</a>  <em class="jxr_comment">//        Logger.getLogger("javax.enterprise.system").setLevel(Level.OFF);</em>
+<a class="jxr_linenumber" name="41" href="#41">41</a>  <em class="jxr_comment">//        glassfish.start();</em>
+<a class="jxr_linenumber" name="42" href="#42">42</a>  <em class="jxr_comment">//</em>
+<a class="jxr_linenumber" name="43" href="#43">43</a>  <em class="jxr_comment">//        ScatteredArchive archive = new ScatteredArchive("Wegas", ScatteredArchive.Type.WAR, new File("./src/main/webapp/"));</em>
+<a class="jxr_linenumber" name="44" href="#44">44</a>  <em class="jxr_comment">//        appName = glassfish.getDeployer().deploy(archive.toURI(), "--contextroot=Wegas");</em>
+<a class="jxr_linenumber" name="45" href="#45">45</a>  <em class="jxr_comment">//</em>
+<a class="jxr_linenumber" name="46" href="#46">46</a>  <em class="jxr_comment">//        JWebUnit.setBaseUrl("http://localhost:5353/Wegas/");</em>
+<a class="jxr_linenumber" name="47" href="#47">47</a>  <em class="jxr_comment">//    }</em>
+<a class="jxr_linenumber" name="48" href="#48">48</a>  <em class="jxr_comment">//</em>
+<a class="jxr_linenumber" name="49" href="#49">49</a>  <em class="jxr_comment">//    @AfterClass</em>
+<a class="jxr_linenumber" name="50" href="#50">50</a>  <em class="jxr_comment">//    public static void tearDownClass() throws Exception {</em>
+<a class="jxr_linenumber" name="51" href="#51">51</a>  <em class="jxr_comment">//        glassfish.getDeployer().undeploy(appName);</em>
+<a class="jxr_linenumber" name="52" href="#52">52</a>  <em class="jxr_comment">//        glassfish.dispose();</em>
+<a class="jxr_linenumber" name="53" href="#53">53</a>  <em class="jxr_comment">//    }</em>
 <a class="jxr_linenumber" name="54" href="#54">54</a>  
 <a class="jxr_linenumber" name="55" href="#55">55</a>  <em class="jxr_comment">//    @Test</em>
 <a class="jxr_linenumber" name="56" href="#56">56</a>  <em class="jxr_comment">//    public void testJs() throws GlassFishException, IOException {</em>
@@ -68,13 +68,13 @@
 <a class="jxr_linenumber" name="58" href="#58">58</a>  <em class="jxr_comment">//        assertTitleEquals("Wegas Test Suite");</em>
 <a class="jxr_linenumber" name="59" href="#59">59</a>  <em class="jxr_comment">//       //  beginAt("tests/widget/wegas-serialization-test.htm.htm");</em>
 <a class="jxr_linenumber" name="60" href="#60">60</a>  <em class="jxr_comment">//    }</em>
-<a class="jxr_linenumber" name="61" href="#61">61</a>      @Test
-<a class="jxr_linenumber" name="62" href="#62">62</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testJs() {
-<a class="jxr_linenumber" name="63" href="#63">63</a>          JWebUnit.setScriptingEnabled(<strong class="jxr_keyword">true</strong>);
-<a class="jxr_linenumber" name="64" href="#64">64</a>          <em class="jxr_comment">// JWebUnit.setExpectedJavaScriptAlert("Test run success");</em>
-<a class="jxr_linenumber" name="65" href="#65">65</a>          beginAt(<span class="jxr_string">"tests/wegas-alltests.htm"</span>);
-<a class="jxr_linenumber" name="66" href="#66">66</a>          assertTitleEquals(<span class="jxr_string">"Wegas Test Suite"</span>);
-<a class="jxr_linenumber" name="67" href="#67">67</a>      }
+<a class="jxr_linenumber" name="61" href="#61">61</a>  <em class="jxr_comment">//    @Test</em>
+<a class="jxr_linenumber" name="62" href="#62">62</a>  <em class="jxr_comment">//    public void testJs() {</em>
+<a class="jxr_linenumber" name="63" href="#63">63</a>  <em class="jxr_comment">//        JWebUnit.setScriptingEnabled(true);</em>
+<a class="jxr_linenumber" name="64" href="#64">64</a>  <em class="jxr_comment">//        // JWebUnit.setExpectedJavaScriptAlert("Test run success");</em>
+<a class="jxr_linenumber" name="65" href="#65">65</a>  <em class="jxr_comment">//        beginAt("wegas-app/tests/wegas-alltests.htm");</em>
+<a class="jxr_linenumber" name="66" href="#66">66</a>  <em class="jxr_comment">//        assertTitleEquals("Wegas Test Suite");</em>
+<a class="jxr_linenumber" name="67" href="#67">67</a>  <em class="jxr_comment">//    }</em>
 <a class="jxr_linenumber" name="68" href="#68">68</a>  }
 </pre>
 <hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
